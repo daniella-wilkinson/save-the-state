@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {box-sizing: border-box;} 
+
+html, body, main {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: "VT323", monospace;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Silkscreen", sans-serif;
+  padding: 0;
+  margin: 2px 0 25px 0;
+}
+
+.para {
+  padding: 5px 15px;
+  margin: 0;
+  text-indent: 50px;
+}
+
+.white {background-color: #fafafa;}
+
+/* ============================== */
+/* text styling  */
+/* ============================== */
+
+a {color: #333; text-decoration: none;}
+
+.txt-left {text-align: left;}
+.txt-right {text-align: right;}
+.txt-center {text-align: center;}
+
+.txt-gray {color: #333;}
+.txt-blue {color: #213448;}
+.txt-red {color: #482126;}
+.txt-yellow {color: #484521;}
+.txt-green {color: #2b4821;}
+
+/* ============================== */
+/* border styling */
+/* ============================== */
+
+.border-gray {border: solid #333 3px; border-radius: 15px;}
+.border-blue {border: solid #213448 3px; border-radius: 15px;}
+.border-red {border: solid #482126 3px; border-radius: 15px;}
+.border-yellow {border: solid #484521 3px; border-radius: 15px;}
+.border-green {border: solid #2b4821 3px; border-radius: 15px;}
+
+.shadow-gray {box-shadow: 5px 10px #333;}
+.shadow-blue {box-shadow: 5px 10px #213448;}
+.shadow-red {box-shadow: 5px 10px #482126;}
+.shadow-yellow {box-shadow: 5px 10px #484521;}
+.shadow-green {box-shadow: 5px 10px #2b4821;}
+
+/* ============================== */
+/* background image */
+/* ============================== */
+
+.bg-home {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/save-the-state.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
+.bg-blue {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/blue-reg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-red {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/red-reg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-yellow {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/yellow-reg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-green {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/green-reg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+

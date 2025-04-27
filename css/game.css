@@ -1,0 +1,205 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-item {
+  padding: 0px;
+  margin: 0;
+  width: 50%;
+}
+
+.centered-itemB {
+  padding: 0px;
+  margin: 0;
+  width: 75%;
+}
+
+/* ============================== */
+/* lobby container */
+/* ============================== */
+
+.lobby {
+  padding: 15px;
+  margin: 0;
+  height: 700px;
+}
+
+.lobby-console {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 90%;
+}
+
+.lobby-console-itemA,
+.lobby-console-itemB {
+  padding: 10px;
+  margin: 0;
+}
+
+.lobby-console-itemA {flex: 70%;}
+.lobby-console-itemB {flex: 30%;}
+
+/* ============================== */
+/* game container */
+/* ============================== */
+
+.game {
+  padding: 15px;
+  margin: 0;
+  height: 700px;
+}
+
+.game-console {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 90%;
+}
+
+.game-console-itemA,
+.game-console-itemB {
+  padding: 10px;
+  margin: 0;
+}
+
+.game-console-itemA {flex: 70%;}
+.game-console-itemB {flex: 30%;}
+
+#narrative p {
+  padding: 5px 0;
+}
+
+/* ============================== */
+/* button layout */
+/* ============================== */
+
+.button-layout {
+  margin: 10px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* ============================== */
+/* button styling */
+/* ============================== */
+
+.button-home h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+}
+
+.button-home a {
+  margin: 0;
+  padding: 17px;
+  text-align: center;
+  color: white;
+  background-color: #5b5b5b;
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+}
+
+/* ============================== */
+
+.button-blue { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #385b82; 
+  color: white; 
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+  /* cursor: pointer; */
+}
+
+.button-red { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #a64b57; 
+  color: white; 
+  border: none; 
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+  /* cursor: pointer; */
+}
+
+.button-yellow { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #bab254; 
+  color: white; 
+  border: none; 
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+  /* cursor: pointer; */
+}
+
+.button-green { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #5b9b45; 
+  color: white; 
+  border: none; 
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+  /* cursor: pointer; */
+}
+
+/* ============================== */
+
+.button-home a:hover {
+  background: #333;
+  box-shadow: 0 5px #696969;
+  transform: translateY(4px);
+}
+
+.button-blue:hover {
+  background: #294564;
+  box-shadow: 0 5px #696969;
+  transform: translateY(4px);
+}
+
+.button-red:hover {
+  background: #77343d;
+  box-shadow: 0 5px #696969;
+  transform: translateY(4px);
+}
+
+.button-yellow:hover {
+  background: #968f3d;
+  box-shadow: 0 5px #696969;
+  transform: translateY(4px);
+}
+
+.button-green:hover {
+  background: #3f6c30;
+  box-shadow: 0 5px #696969;
+  transform: translateY(4px);
+}

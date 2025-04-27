@@ -18,6 +18,29 @@
 }
 
 /* ============================== */
+/* lobby navigation */
+/* ============================== */
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0 15px;
+}
+
+.nav-itemA {
+  margin: 0;
+  padding: 0;
+  flex: 20%;
+}
+
+.nav-itemB {
+  margin: 0;
+  padding: 0;
+  flex: 80%;
+}
+
+/* ============================== */
 /* lobby container */
 /* ============================== */
 
@@ -174,32 +197,35 @@
 
 /* ============================== */
 
-.button-home a:hover {
-  background: #333;
+.button-home a:hover {background: #333;}
+.button-blue:hover {background: #294564;}
+.button-red:hover {background: #77343d;}
+.button-yellow:hover {background: #968f3d;}
+.button-green:hover {background: #3f6c30;}
+
+/* ============================== */
+
+.button-home a:active {
   box-shadow: 0 5px #696969;
   transform: translateY(4px);
 }
 
-.button-blue:hover {
-  background: #294564;
+.button-blue:active {
   box-shadow: 0 5px #696969;
   transform: translateY(4px);
 }
 
-.button-red:hover {
-  background: #77343d;
+.button-red:active {
   box-shadow: 0 5px #696969;
   transform: translateY(4px);
 }
 
-.button-yellow:hover {
-  background: #968f3d;
+.button-yellow:active {
   box-shadow: 0 5px #696969;
   transform: translateY(4px);
 }
 
-.button-green:hover {
-  background: #3f6c30;
+.button-green:active {
   box-shadow: 0 5px #696969;
   transform: translateY(4px);
 }

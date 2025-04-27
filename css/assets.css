@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5 {
 /* text styling  */
 /* ============================== */
 
-a {color: #333; text-decoration: none;}
+a {text-decoration: none;}
 
 .txt-left {text-align: left;}
 .txt-right {text-align: right;}

@@ -1,3 +1,2 @@
-@import "./assets.css";
-@import "./game.css";
-
+@import url('css/assets.css');
+@import url('css/game.css');

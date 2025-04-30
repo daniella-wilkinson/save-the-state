@@ -15,12 +15,15 @@
         <div class="navigation">
           <div class="nav-itemA"><a href="index.html"><h2 class="txt-blue txt-center border-blue shadow-blue">Home</h2></a></div>
           <div class="nav-itemB"><h2 class="txt-center border-blue shadow-blue">Region A</h2></div>
-        </div>
+          <div class="nav-itemA"><h2 id="history-button" class="txt-blue txt-center border-blue shadow-blue" style="cursor: pointer;">Report</h2></div>
+        </div>        
         <!-- main activity -->
         <div class="game-console">
           <!-- main activity item -->
-          <div class="game-console-itemA centered border-blue shadow-blue">
-            <div id="narrative" class="centered-itemB"></div>
+          <div class="game-console-itemA border-blue shadow-blue">
+            <div class="console-container">
+              <div id="narrative" class="console-item"></div>
+            </div>
           </div>
           <!-- main activity item -->
           <div class="game-console-itemB border-blue shadow-blue">
@@ -29,6 +32,16 @@
         </div>
       </div>
     </div>
+
+    <!-- History Modal -->
+    <div id="history-modal" class="modal hidden">
+      <div class="modal-content">
+        <span id="close-modal" class="close-button">&times;</span>
+        <h2 class="txt-center">Player Choices</h2>
+        <ul id="history-list"></ul>
+      </div>
+    </div>
+
     <script src="scriptA.js"></script>
   </main>
 </body>

@@ -37,7 +37,7 @@ const story = {
 }
 
 // =================================
-// initialize function
+// narrative function
 // =================================
 
 function showNarrative(sceneKey) {
@@ -60,8 +60,92 @@ function showNarrative(sceneKey) {
   });
 }
 
-// =================================
-// initialize function
+
 // =================================
 
 showNarrative("start");
+
+// =================================
+// report function
+// =================================
+
+let currentStep = 0;
+const history = [];
+
+const narrative = document.getElementById("narrative");
+const buttons = document.getElementById("narrative-button");
+
+function showStep(step) {
+  const current = story[step];
+  narrative.textContent = current.text;
+  buttons.innerHTML = "";
+
+  current.options.forEach(option => {
+    const btn = document.createElement("button");
+    btn.textContent = option;
+    btn.addEventListener("click", () => {
+      recordChoice(`Step ${step + 1}: ${option}`);
+      nextStep();
+    });
+    buttons.appendChild(btn);
+  });
+}
+
+// =================================
+
+function nextStep() {
+  currentStep++;
+  if (currentStep < story.length) {
+    showStep(currentStep);
+  } else {
+    narrative.textContent = "The adventure ends here.";
+    buttons.innerHTML = "";
+  }
+}
+
+// =================================
+
+function recordChoice(choiceText) {
+  history.push(choiceText);
+  updateHistoryView();
+}
+
+// =================================
+
+function updateHistoryView() {
+  const list = document.getElementById("history-list");
+  list.innerHTML = "";
+  history.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    list.appendChild(li);
+  });
+}
+
+// =================================
+// modal application
+// =================================
+
+// Modal logic
+const historyButton = document.getElementById("history-button");
+const historyModal = document.getElementById("history-modal");
+const closeModal = document.getElementById("close-modal");
+
+historyButton.addEventListener("click", () => {
+  historyModal.classList.remove("hidden");
+});
+
+closeModal.addEventListener("click", () => {
+  historyModal.classList.add("hidden");
+});
+
+historyModal.addEventListener("click", (e) => {
+  if (e.target === historyModal) {
+    historyModal.classList.add("hidden");
+  }
+});
+
+// =================================
+
+// Start game
+showStep(currentStep);

@@ -1,0 +1,51 @@
+.bg-home {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/save-the-state.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
+/* ============================== */
+
+.bg-blue {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/blue-reg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-red {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/red-reg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-yellow {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/yellow-reg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-green {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/green-reg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

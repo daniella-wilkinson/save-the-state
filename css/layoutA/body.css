@@ -1,0 +1,24 @@
+* {box-sizing: border-box;} 
+
+html, body, main {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: "VT323", monospace;
+}
+
+/* center content */
+/* ============================== */
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.centered-item {
+  width: 100%;
+  max-width: 850px;
+}

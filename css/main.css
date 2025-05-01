@@ -1,2 +1,20 @@
-@import url("assets.css");
-@import url("layout.css");
+/* layout A */
+
+@import url('./layoutA/body.css');
+@import url('./layoutA/header.css');
+
+/* layout B */
+
+@import url('./layoutB/game.css');
+
+/* assets */
+
+@import url('./assets/type.css');
+@import url('./assets/colors.css');
+@import url('./assets/images.css');
+
+/* components */
+
+@import url('./components/modal.css');
+@import url('./components/buttons.css');
+

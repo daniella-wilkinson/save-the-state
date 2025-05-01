@@ -1,0 +1,13 @@
+.white {background-color: #fafafa;}
+
+.border-gray {border: solid #333 3px; border-radius: 15px;}
+.border-blue {border: solid #213448 3px; border-radius: 15px;}
+.border-red {border: solid #482126 3px; border-radius: 15px;}
+.border-yellow {border: solid #484521 3px; border-radius: 15px;}
+.border-green {border: solid #2b4821 3px; border-radius: 15px;}
+
+.shadow-gray {box-shadow: 5px 10px #333;}
+.shadow-blue {box-shadow: 5px 10px #213448;}
+.shadow-red {box-shadow: 5px 10px #482126;}
+.shadow-yellow {box-shadow: 5px 10px #484521;}
+.shadow-green {box-shadow: 5px 10px #2b4821;}

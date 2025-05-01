@@ -1,0 +1,176 @@
+/* button layout */
+/* ============================== */
+
+.button-layout {
+  margin: 10px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  min-width: 90%;
+}
+
+.button-layout2 {
+  margin: 10px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  min-width: 90%;
+}
+
+.button-layout3 {
+  margin: 10px;
+  display: grid;
+  width: 90%;
+}
+
+/* button styling */
+/* ============================== */
+
+
+.home-button h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.lobby-button h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.home-button a {
+  margin: 10px 0 0 0;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #5b5b5b;
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+}
+
+.lobby-button a {
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #5b5b5b;
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+}
+
+/* button color */
+/* ============================== */
+
+.button-gray { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #5b5b5b; 
+  color: white; 
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+}
+
+.button-blue { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #385b82; 
+  color: white; 
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+}
+
+.button-red { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #a64b57; 
+  color: white; 
+  border: none; 
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+}
+
+.button-yellow { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #bab254; 
+  color: white; 
+  border: none; 
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+}
+
+.button-green { 
+  display: block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  background: #5b9b45; 
+  color: white; 
+  border: none; 
+  border-radius: 15px;
+  box-shadow: 0 9px #acacac;
+}
+
+/* button interaction */
+/* ============================== */
+
+.home-button a:hover {background: #333;}
+.lobby-button a:hover {background: #333;}
+
+.button-gray:hover {background: #333;}
+.button-blue:hover {background: #294564;}
+.button-red:hover {background: #77343d;}
+.button-yellow:hover {background: #968f3d;}
+.button-green:hover {background: #3f6c30;}
+
+.home-button a:active,
+.lobby-button a:active {
+  box-shadow: 0 5px #696969;
+  transform: translateY(4px);
+}
+
+.button-gray:active,
+.button-blue:active,
+.button-red:active,
+.button-yellow:active, 
+.button-green:active {
+  box-shadow: 0 5px #696969;
+  transform: translateY(4px);
+}

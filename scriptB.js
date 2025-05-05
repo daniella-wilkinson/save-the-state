@@ -1,9 +1,11 @@
 const story = {
   start: {
     text: [
-      "Lorem ipsum dolor sit amet consectetur. Pulvinar sed integer arcu nisl. Arcu risus posuere amet tellus lacinia sed purus eget. Pharetra tellus ipsum arcu faucibus enim ipsum. Diam scelerisque vel viverra quis tortor neque. Sed vestibulum accumsan mauris ut vel. Malesuada nam suscipit erat leo viverra elit lectus quis enim. Massa ac odio dictum eu. Volutpat adipiscing habitant viverra quam viverra quam. Nullam velit pellentesque elementum nascetur. Posuere consectetur facilisi mattis non turpis venenatis eget. Enim purus proin dignissim aliquam tristique.",
+      "Region B is a West African nation near the Atlantic Ocean. Its land includes verdant forests, rivers, lakes, and wetlands. It is particularly susceptible to rising temperatures, heat waves, and wildfires, which erode historic wildlife habitats and disturb rural villages. In response, rural populations rapidly migrate from rural to urban areas to escape severe floods, droughts, and wildfires exacerbated by climate change.",
       
-      "Lorem ipsum dolor sit amet consectetur. Pulvinar sed integer arcu nisl. Arcu risus posuere amet tellus lacinia sed purus eget. Pharetra tellus ipsum arcu faucibus enim ipsum. Diam scelerisque vel viverra quis tortor neque. Sed vestibulum accumsan mauris ut vel. Malesuada nam suscipit erat leo viverra elit lectus quis enim. Massa ac odio dictum eu. Volutpat adipiscing habitant viverra quam viverra quam. Nullam velit pellentesque elementum nascetur. Posuere consectetur facilisi mattis non turpis venenatis eget. Enim purus proin dignissim aliquam tristique."
+      "Local governments in urban centers are alarmed by an emerging issue: public health degradation. The rural migrant population is increasing at a rate that outpaces infrastructure investment in affordable housing. Urban areas that receive an influx of migrants struggle to provide adequate, affordable housing, which forces vulnerable migrant populations to erect slums. Urban centers lack the necessary investment to propagate affordable housing to satisfy demand without defunding essential public services to balance the budget. Inadequate housing settlements are a public health issue. Makeshift plumbing, garbage disposal, and tightly knit living quarters breed the necessary conditions for disease outbreaks.",
+
+      "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
       { text: "Option 1", next: "Option1" },
@@ -36,9 +38,8 @@ const story = {
   }
 }
 
-// =================================
-// initialize function
-// =================================
+// narrative function
+// ===============================================================================
 
 function showNarrative(sceneKey) {
   const scene = story[sceneKey];
@@ -55,13 +56,103 @@ function showNarrative(sceneKey) {
     const button = document.createElement("button");
     button.textContent = option.text;
     button.className = "button-red";
-    button.onclick = () => showNarrative(option.next);
+    button.onclick = () => {
+      const fullSceneText = scene.text.join(" ");
+      recordChoice(fullSceneText, option.text);
+      showNarrative(option.next);
+    };    
     optionsDiv.appendChild(button);
   });
 }
 
 // =================================
-// initialize function
-// =================================
 
 showNarrative("start");
+
+// report function
+// =================================
+
+const history = [];
+
+const narrative = document.getElementById("narrative");
+const buttons = document.getElementById("narrative-button");
+
+// =================================
+
+function recordChoice(sceneText, choiceText) {
+  history.push({ sceneText, choiceText });
+  updateHistoryView();
+}
+
+// =================================
+
+function updateHistoryView() {
+  const list = document.getElementById("history-list");
+  list.innerHTML = "";
+
+  history.forEach(entry => {
+    const li = document.createElement("li");
+    li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+    list.appendChild(li);
+  });
+}
+
+// modal 1 application
+// =================================
+
+
+window.onload = function () {
+  const modal = document.getElementById("modal");
+  const closeButton = document.querySelector(".close-button");
+
+  // Close modal when clicking the close (x) button
+  closeButton.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  // Close modal when clicking outside the modal content
+  window.onclick = function (event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  };
+};
+
+// modal 2 application
+// =================================
+
+// Modal logic
+const historyButton = document.getElementById("history-button");
+const historyModal = document.getElementById("history-modal");
+const closeModal = document.getElementById("close-modal");
+
+historyButton.addEventListener("click", () => {
+  historyModal.classList.remove("hidden");
+});
+
+closeModal.addEventListener("click", () => {
+  historyModal.classList.add("hidden");
+});
+
+historyModal.addEventListener("click", (e) => {
+  if (e.target === historyModal) {
+    historyModal.classList.add("hidden");
+  }
+});
+
+// copy to clipboard
+// =================================
+
+document.getElementById("copy-history").addEventListener("click", () => {
+  const listItems = document.querySelectorAll("#history-list li");
+  const textToCopy = Array.from(listItems)
+    .map(li => li.textContent)
+    .join("\n");
+
+  navigator.clipboard.writeText(textToCopy).then(() => {
+    alert("Report copied to clipboard!");
+  }).catch(err => {
+    console.error("Copy failed:", err);
+    alert("Failed to copy Report.");
+  });
+});

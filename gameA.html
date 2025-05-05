@@ -8,13 +8,40 @@
 </head>
 
 <body class="bg-blue txt-blue">
+  <!-- player modal -->
+  <!-- <div id="modal" class="modal">
+    <div class="modal-content2">
+      <span class="close-button">&times;</span>
+      <div class="avatar-container">
+        <div class="avatar-profile"><img src="./images/blue-cursor.png" alt="avatar"></div>
+        <div class="avatar-profile"><img src="./images/blue-cursor.png" alt="avatar"></div>
+        <div class="avatar-profile"><img src="./images/blue-cursor.png" alt="avatar"></div>
+      </div>
+      <h2 class="txt-blue txt-center">Welcome Staffer</h2>
+      <p class="txt-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus fugiat ducimus ex sunt architecto suscipit soluta eligendi repudiandae ea, pariatur rerum saepe fugit eos nostrum ullam quaerat sed. Quibusdam.
+      </p>
+      <p class="para txt-blue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quis magni ullam repellat quas maiores voluptatum reprehenderit officia sequi magnam commodi amet dolorem molestias quod possimus quaerat, nisi labore mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum aliquam cum ab iusto ipsa, dolorem doloribus? Sit, praesentium doloremque odio at tenetur maiores sed, consectetur earum quasi, suscipit reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quis magni ullam repellat quas maiores voluptatum reprehenderit officia sequi magnam commodi amet dolorem molestias quod possimus quaerat, nisi labore mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum aliquam cum ab iusto ipsa, dolorem doloribus? Sit, praesentium doloremque odio at tenetur maiores sed, consectetur earum quasi, suscipit reprehenderit.
+      </p>
+      <p class="para txt-blue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quis magni ullam repellat quas maiores voluptatum reprehenderit officia sequi magnam commodi amet dolorem molestias quod possimus quaerat, nisi labore mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum aliquam cum ab iusto ipsa, dolorem doloribus? Sit, praesentium doloremque odio at tenetur maiores sed, consectetur earum quasi, suscipit reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quis magni ullam repellat quas maiores voluptatum reprehenderit officia sequi magnam commodi amet dolorem molestias quod possimus quaerat, nisi labore mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum aliquam cum ab iusto ipsa, dolorem doloribus? Sit, praesentium doloremque odio at tenetur maiores sed, consectetur earum quasi, suscipit reprehenderit.
+      </p>
+      <div class="avatar-container">
+        <div class="avatar-profile"><img src="./images/blue-cursor.png" alt="avatar"></div>
+        <div class="avatar-profile"><img src="./images/blue-cursor.png" alt="avatar"></div>
+        <div class="avatar-profile"><img src="./images/blue-cursor.png" alt="avatar"></div>
+      </div>
+    </div>
+  </div> -->
+
   <main class="centered">
     <div class="centered-item">
       <div class="game border-blue white shadow-blue">
         <!-- navigation -->
         <div class="navigation">
           <div class="nav-itemA"><a href="lobby.html"><h2 class="txt-blue txt-center border-blue shadow-blue">Lobby</h2></a></div>
-          <div class="nav-itemB"><h2 class="txt-center border-blue shadow-blue">Region A</h2></div>
+          <div class="nav-itemB"><a href="gameA.html"><h2 class="txt-center border-blue shadow-blue">Region A</h2></a></div>
           <div class="nav-itemA"><h2 id="history-button" class="txt-blue txt-center border-blue shadow-blue" style="cursor: pointer;">Report</h2></div>
         </div>        
         <!-- main activity -->
@@ -33,12 +60,13 @@
       </div>
     </div>
 
-    <!-- History Modal -->
+    <!-- report modal -->
     <div id="history-modal" class="modal hidden">
       <div class="modal-content">
         <span id="close-modal" class="close-button">&times;</span>
-        <h2 class="txt-center">Player Choices</h2>
+        <h2 class="txt-blue txt-center">Player Choices</h2>
         <ul id="history-list"></ul>
+        <button id="copy-history" class="button-blue">Copy to Clipboard</button>
       </div>
     </div>
 

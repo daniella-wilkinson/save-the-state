@@ -14,7 +14,7 @@
         <!-- navigation -->
         <div class="navigation">
           <div class="nav-itemA"><a href="lobby.html"><h2 class="txt-green txt-center border-green shadow-green">Lobby</h2></a></div>
-          <div class="nav-itemB"><h2 class="txt-center border-green shadow-green">Region D</h2></div>
+          <div class="nav-itemB"><a href="gameD.html<h2 class="txt-center border-green shadow-green">Region D</h2>"></a></div>
           <div class="nav-itemA"><h2 id="history-button" class="txt-green txt-center border-green shadow-green" style="cursor: pointer;">Report</h2></div>
         </div>  
         <!-- main activity -->
@@ -32,6 +32,17 @@
         </div>
       </div>
     </div>
+
+    <!-- report modal -->
+    <div id="history-modal" class="modal hidden">
+      <div class="modal-content">
+        <span id="close-modal" class="close-button">&times;</span>
+        <h2 class="txt-green txt-center">Player Choices</h2>
+        <ul id="history-list"></ul>
+        <button id="copy-history" class="button-green">Copy to Clipboard</button>
+      </div>
+    </div>
+
     <script src="scriptD.js"></script>
   </main>
 </body>

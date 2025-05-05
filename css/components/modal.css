@@ -12,10 +12,22 @@
   z-index: 1000;
 }
 
+.modal-content2 {
+  padding: 0 10px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 750px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
 .modal-content {
   background: white;
   padding: 1.5rem;
-  border-radius: 8px;
+  border-radius: 15px;
   width: 90%;
   max-width: 500px;
   max-height: 80vh;
@@ -38,4 +50,26 @@
 #history-list {
   list-style-type: disc;
   padding-left: 1.5rem;
+}
+
+/* ============================== */
+
+#copy-history {
+  margin-top: 1rem;
+}
+
+/* avatar container */
+/* ============================== */
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.avatar-profile {flex: 33.33%;}
+
+.avatar-profile img {
+  width: 100%;
+  height: auto;
 }

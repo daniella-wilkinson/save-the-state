@@ -34,19 +34,23 @@ const story = {
 
   OptionA1: {
     text: [
-     "You recognize that development has come at the cost of the delta's most effective flood buffers—wetlands and mangroves. You initiate a large-scale restoration campaign, identifying key sites for ecological rehabilitation. This means working with local scientists and landowners to reestablish native vegetation and water flow. In time, these restored ecosystems absorb excess water naturally, reducing flood peaks and improving biodiversity. Communities also begin to see the wetlands not as swamps but as life-saving systems worth protecting."
+     "You recognize that development has come at the cost of the delta's most effective flood buffers—wetlands and mangroves. You initiate a large-scale restoration campaign, identifying key sites for ecological rehabilitation.",
+
+      "Some residents have concerns about residential relocation initiatives aimed at developing ecological buffers. However, you reassure them that residential areas will remain unchanged.",
+      
+     "You work with local scientists and landowners to reestablish native vegetation and water flow. In time, these restored ecosystems absorb excess water naturally, reducing floods and improving biodiversity. Communities also begin to see the wetlands not as swamps but as life-saving systems worth protecting."
     ], 
   },
 
   OptionA2: {
     text: [
-     "You encourage local governments to mandate that new developments and significant renovations incorporate green infrastructure, such as green roofs, permeable pavement, and bioswales. You also educate developers and offer financial incentives to help offset initial costs. Over time, these practices allow stormwater to seep into the ground rather than accumulate in streets and low-lying areas. This approach is not just about controlling floods; it's about redesigning urban life to work with water rather than against it."
+     "You partner with local governments to mandate that new developments and significant renovations incorporate green infrastructure, such as green roofs, permeable pavement, and bioswales. You also educate developers and offer financial incentives to help offset initial costs. Over time, these practices allow stormwater to seep into the ground rather than accumulate in streets and low-lying areas. This approach is not just about controlling floods; it's about redesigning urban life to work with water rather than against it."
     ], 
   },
 
   OptionA3: {
     text: [
-     "To address the delta's sprawling urbanization, you propose a rezoning plan that establishes an ecological buffer around the most flood-prone areas. This plan restricts new development while encouraging landowners to transition vulnerable plots into green spaces. The buffer zone becomes a dual-purpose asset, reducing disaster risk and offering recreation, tourism, and educational opportunities tied to the delta's unique ecosystems."
+     "To address the delta's sprawling urbanization, you propose a rezoning plan that establishes an ecological buffer around the most flood-prone areas. This plan restricts new development while encouraging landowners to transition vulnerable plots into green spaces. The buffer zone becomes a dual-purpose asset, reducing disaster risk and offering recreation, limited tourism, and educational opportunities tied to the delta's unique ecosystems."
     ], 
   },
 
@@ -62,7 +66,9 @@ const story = {
 
   OptionB: {
     text: [
-      "You recognize the warning signs. The unchecked expansion into Region D's fragile delta is creating a potential disaster—more homes and buildings in areas prone to flooding. You make the tough decision to stop future development, prioritizing compact, elevated, and carefully zoned growth instead. This decision goes beyond halting expansion; it aims to reshape the region's development. You introduce planning reforms, enforce new building codes, and offer relocation options for the most vulnerable residents. This approach necessitates difficult political decisions, such as imposing limits on land use, suspending risky construction, and encouraging developers to build vertically rather than horizontally to curb urban sprawl.",
+      "You recognize the warning signs. The unchecked expansion into Region D's fragile delta is creating a potential disaster—more homes and buildings in areas prone to flooding. You make the tough decision to stop future development, prioritizing compact, elevated, and carefully zoned growth instead. This decision goes beyond halting expansion; it aims to reshape the region's development.",
+
+      "You introduce planning reforms, enforce new building codes, and offer relocation options for the most vulnerable residents. This approach necessitates difficult political decisions, such as imposing limits on land use, suspending risky construction, and encouraging developers to build vertically rather than horizontally to curb urban sprawl.",
 
       "Your policy decision gradually transforms the region's physical and social landscape. Fewer people live in hazardous areas, fewer homes are constructed on unstable ground, and more land is preserved for its intended purpose: absorbing excess water instead of supporting buildings. However, tensions remain concerning land use restrictions for commercial and residential development to support a dynamic and growing population.",
 
@@ -78,7 +84,7 @@ const story = {
 
   OptionB1: {
     text: [
-     "You draft a new set of planning rules and regulations focused on environmentally-conscious urban planning to mitigate urban sprawl, concentrating development in existing urban centers, and preserving underdeveloped land near the delta. You form planning councils that include scientists, architects, and citizen representatives. Though it meets initial resistance from some developers, your approach helps prevent reckless expansion into fragile flood zones and lays the foundation for safer, more sustainable urban density."
+     "You draft a new set of planning rules and regulations focused on environmentally-conscious urban planning to mitigate urban sprawl, concentrating development in existing urban centers, and preserving underdeveloped land near the delta. You form planning councils that include scientists, architects, and citizen representatives. Though it meets initial resistance from some developers, your approach helps prevent reckless expansion into fragile flood zones and lays the foundation for safer, more sustainable urban growth and development."
     ], 
   },
 

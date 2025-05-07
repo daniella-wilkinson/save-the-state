@@ -20,7 +20,7 @@ const story = {
 
   OptionA: {
     text: [
-      "To slow rural-to-urban migration, you introduce a climate-resilient rural development initiative. You aim to strengthen the viability of staying in rural areas by restoring degraded ecosystems, funding wildfire prevention efforts, and providing access to renewable energy and clean water infrastructure. By making rural living safer and more sustainable, you begin to stem the migration flow at its source. You incorporate training and tools for sustainable farming practices, early warning systems for natural hazards, and local cooperatives for shared resources. Investing in climate resilience creates long-term social stability while reducing pressure on overcrowded cities.",
+      "To slow rural-to-urban migration, you introduce a climate-resilient rural development initiative. You aim to strengthen the viability of staying in rural areas by restoring degraded ecosystems, funding wildfire prevention efforts, and providing access to renewable energy and clean water infrastructure. By making rural living safer and more sustainable, you begin to stem the migration flow at its source. You incorporate training and tools for sustainable farming practices, early warning systems for natural hazards, and local cooperatives to share resources. Investing in climate resilience creates long-term social stability while reducing pressure on overcrowded cities.",
 
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
@@ -34,19 +34,21 @@ const story = {
 
   OptionA1: {
     text: [
-      "You invest in tree-crop integration systems that promote food security and ecological stability. Agroforestry enhances food production and creates microclimates that help combat heat waves. This approach empowers rural families by providing them with diversified income sources, reducing migration pressure. As the trees mature, the community's resilience also grows. Soil quality improves, the risk of wildfires decreases, and villages become more self-sufficient. Rural residents start to view climate adaptation as a form of empowerment rather than a retreat."
+      "You invest in tree-crop integration systems that promote food security and ecological stability. Agroforestry enhances food production and creates microclimates that help combat heat waves. This approach empowers rural families by providing them with diversified income sources, reducing migration pressure. As the trees mature, the community's resilience also grows. Soil quality improves, the risk of wildfires decreases, and villages become more self-sufficient. Rural residents start to view climate adaptation as a form of empowerment rather than a retreat.",
+
+      "Agroforestry proves to be a sufficient solution to slow the pace of rural-urban migration. More farmers remain in rural centers and maintain the local economy and agricultural labor sector."
     ], 
   },
 
   OptionA2: {
     text: [
-      "You fund solar-powered microgrids to bring stable electricity to villages far from the national grid. Access to power makes schools more effective, businesses more viable, and health clinics more reliable. With electricity comes opportunity. Villagers no longer feel disconnected from progress. Energy access helps stop migration by transforming rural life from surviving to thriving."
+      "You fund solar-powered microgrids to bring stable electricity to villages far from the national grid. Access to power makes schools more effective, businesses more viable, and health clinics more reliable. With electricity comes opportunity. Villagers no longer feel disconnected from progress. Energy access helps stop migration by transforming rural life."
     ], 
   },
 
   OptionA3: {
     text: [
-      "You launch a training program that employs youth to restore wetlands, prevent soil erosion, and manage fire-prone areas. This puts money in pockets and skills in hands without requiring migration to cities. Participants gain dignity through meaningful work. Your program reframes conservation as a job creator, not a cost center. Rural youth now see a future where they can stay and succeed."
+      "You launch a training program that employs young workers entering the labor market to restore wetlands, prevent soil erosion, and manage fire-prone areas. This puts money in pockets and skills in hands without requiring migration to cities. Participants gain dignity through meaningful work. Your program reframes conservation as a job creator, not a cost center. Rural residents now see a future where they can stay and succeed."
     ], 
   },
 

@@ -22,57 +22,57 @@ const story = {
 
   OptionA: {
     text: [
-      "You propose a multi-year, job-creating federal initiative to rebuild water, energy, and transportation systems using climate-resilient, renewable technologies like solar microgrids, permeable road surfaces, and stormwater capture systems. This policy aims to bolster community resilience to environmental threats by modernizing local infrastructure to withstand storms and flooding and expanding employment in construction, renewable energy, and maintenance sectors to increase economic viability and provide opportunities for citizens with low educational attainment. Within five years, several islands witness a significant drop in power outages and storm-related infrastructure failures. Communities near upgraded seawalls and elevated roads report fewer evacuations and less flood damage, painting a promising picture of the future.",
+      "You propose a multi-year, job-creating federal initiative to rebuild water, energy, and transportation systems using climate-resilient, renewable technologies like solar microgrids, permeable road surfaces, and stormwater capture systems. This policy aims to bolster community resilience to environmental threats by modernizing local infrastructure to withstand storms and flooding and expanding employment in construction, renewable energy, and maintenance sectors to increase economic viability and provide opportunities for citizens with low educational attainment. Within three years, several islands witness a significant drop in power outages and storm-related infrastructure failures. Communities near upgraded seawalls and elevated roads report fewer evacuations and less flood damage.",
 
-      "National lawmakers resist the high costs associated with modernizing infrastructure and allocating resources to Region A, leading to political opposition across party lines. Some federal government members argue that the plan is too expensive and unfairly benefits Region A. As a result, a budget dispute halts additional phases of the project. This discourse derails progress. Additionally, bureaucracy and logistical challenges contribute to implementation delays, slowing initial efforts to assess the green program's short-term benefits and long-term returns.",
+      "National lawmakers resist the high costs associated with modernizing infrastructure and allocating resources to Region A, leading to political opposition across party lines. Some federal government members argue that the plan is too expensive and unfairly benefits Region A. Subsequently, a budget dispute halts additional phases of the project. This discourse derails progress. Additionally, bureaucracy and logistical challenges contribute to implementation delays, slowing initial efforts to assess the green program's short-term benefits and long-term returns.",
 
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices will increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
       { text: "Conduct a Congressional Caucus", next: "OptionA1" },
       { text: "Conduct Regional Job-Training", next: "OptionA2" },
-      { text: "Launch Corporate Tax Credits and Debits", next: "OptionA3" },
+      { text: "Introduce Eco-Friendly Infrastructure Tax Credit", next: "OptionA3" },
       { text: "Introduce Climate Equity Tax", next: "OptionA4" }
     ]
   },
 
   OptionA1: {
     text: [
-      "You initiate a Congressional Caucus focused on climate-resilient infrastructure for vulnerable mainland regions, with Region A at the forefront. You know that policy change at the federal level requires strategic coalition-building, so you bring together representatives from other coastal and disaster-prone districts who face similar challenges. The goal is to form a united front to push for targeted legislation, appropriations, and oversight that center on infrastructure modernization in frontline climate zones.",
+      "You initiate a Congressional Caucus focused on climate-resilient infrastructure for vulnerable island territories, with Region A at the forefront. You know that policy change at the federal level requires strategic collaboration, so you gather representatives from other coastal and disaster-prone regions who face similar challenges. The goal is to form a united front to push for targeted legislation, appropriations, and oversight that center on infrastructure modernization in frontline climate zones.",
 
-      "As you navigate the political landscape, you quickly realize that bipartisan support hinges on framing the issue as both environmental, economic, and national security imperatives. You collaborate with climate scientists, urban planners, and military readiness experts to testify before Congress. Their data helps reinforce the urgency: failing to invest now could lead to catastrophic costs later.",
+      "As you navigate the political landscape, you quickly realize that bipartisan support hinges on framing the issue as both environmental, economic, and as a national security imperative. You collaborate with climate scientists, urban planners, and military officials to testify before Congress. Their data helps reinforce the urgency: failing to invest now could lead to catastrophic costs later.",
 
-      "You did it! The caucus successfully drafted a federal infrastructure resiliency bill to commit substantial funds for coastal and island communities. While the legislative path remains bumpy, your leadership secures Region A a seat at the national policy table. It elevates its visibility in the eyes of decision-makers and media alike."
+      "The caucus successfully drafted a federal infrastructure resiliency bill to commit substantial funds for coastal and island communities. While the legislative path remains bumpy, your leadership secures Region A a seat at the national policy table. It elevates its visibility in the eyes of prime decision-makers and media alike."
     ], 
   },
 
   OptionA2: {
     text: [
-      "You launch a regional workforce development initiative, understanding that building climate-resilient infrastructure isn't just about roads and seawalls—it's about people. You begin by partnering with local colleges, trade unions, and vocational schools to design job-training programs focused on green construction, sustainable materials, renewable energy systems, and disaster response logistics.",
+      "You launch a regional workforce development initiative, understanding that building climate-resilient infrastructure isn't just about roads and seawalls—it's about people. You begin by partnering with local colleges, trade unions, and vocational schools to design job-training programs focused on green construction, sustainable materials, renewable energy systems, and disaster response management.",
 
-      "As you navigate the political landscape, you quickly realize that bipartisan support hinges on framing the issue as both environmental, economic, and national security imperatives. You collaborate with climate scientists, urban planners, and military readiness experts to testify before Congress. Their data helps reinforce the urgency: failing to invest now could lead to catastrophic costs later.",
+      "As you navigate the political landscape, you quickly realize that bipartisan support hinges on framing the issue as both environmental, economic, and as a national security imperative. You collaborate with climate scientists, urban planners, and military officials to testify before Congress. Their data helps reinforce the urgency: failing to invest now could lead to catastrophic costs later.",
 
-      "As the first cohorts graduate, momentum builds. Local contractors hire from these new talent pools, reducing reliance on off-island labor. Communities feel a renewed sense of ownership over the rebuilding process, and trust in local government begins to mend. The program also helps create a culture of climate literacy, where workers and residents better understand the long-term environmental risks they face."
+      "As the first cohorts graduate, momentum builds. Local contractors hire from these new talent pools, reducing reliance on mainland labor, goods, and services. Communities feel a renewed sense of ownership and agency over the rebuilding process, and trust in local government improves. The program also helps create a culture of climate literacy, where workers and residents better understand the short- and long-term environmental threats they face."
     ], 
   },
 
   OptionA3: {
     text: [
-      "You push for a bold package of green tax credits to incentivize climate-smart investment across Region A. Your proposal includes credits for installing rooftop solar panels, upgrading homes with storm-resistant features, purchasing electric vehicles, and investing in rainwater harvesting and greywater recycling systems. Businesses that retrofit their buildings for energy efficiency or invest in resilient supply chains are also eligible.",
+      "You push for a bold package of green tax credits to incentivize environmentally-conscious investment across Region A. Your proposal includes credits for installing rooftop solar panels, upgrading homes with storm-resistant features, purchasing electric vehicles, and investing in rainwater harvesting and greywater recycling systems. Businesses that retrofit their buildings for energy efficiency or invest in resilient supply chains are also eligible.",
 
-      "You know that tax credits must be accessible to low-income residents, not just property owners and corporations, for them to work equitably. So, you design the credits to be refundable and pair them with outreach campaigns and free consultation services. You also partner with local lenders to offer microloans and grants for upfront costs, ensuring the poorest communities aren't left behind.",
+      "You know that tax credits must be accessible to low-income residents, not just property owners and corporations, for them to work equitably. So, you design the credits to be refundable and pair them with outreach campaigns and free consultation services. You also partner with local lenders to offer loans and grants for upfront costs, ensuring the poorest communities aren't left behind.",
 
-      "Soon, the policy starts to yield results. Local hardware stores report spikes in sales of sustainable building materials. Energy bills drop across participating households. Over time, these tax incentives begin transforming Region A's infrastructure from the bottom up—house by house, business by business—making it more resilient while sparking grassroots economic growth."
+      "Soon, the policy starts to yield results. Local hardware stores report spikes in sales of sustainable building materials. Energy bills drop across participating households. Over time, these tax incentives begin transforming Region A's infrastructure from the bottom up making it more resilient while sparking grassroots economic growth and diversification."
     ], 
   },
 
   OptionA4: {
     text: [
-      "Facing the reality that long-term infrastructure resilience requires sustained public funding, you propose a phased tax increase strategy. Rather than a steep hike, your plan raises taxes incrementally over a decade, targeting luxury goods, large-scale tourism development, and carbon-intensive industries operating in Region A. A portion of the revenue also comes from modest increases in federal transfers secured through your congressional lobbying.",
+      "Facing the reality that long-term infrastructure resilience requires sustained public funding, you propose a phased tax increase strategy. Rather than a steep hike, your plan raises taxes incrementally over a decade, targeting luxury goods, large-scale tourism development, and carbon-intensive industries operating in Region A.",
 
       "You take care to communicate transparently with the public. You hold town halls and launch an online dashboard to show how tax revenues will be used—such as funding storm-resistant schools, underground power lines, and elevated emergency shelters. You also propose accountability measures, including citizen oversight boards and third-party audits.",
 
-      "The transition isn't without friction. Some wealthier stakeholders threaten to pull out or relocate their business operations. But your message resonates with the broader population: this is about survival, sovereignty, and security. Public support grows over time as the infrastructure visibly improves and withstands seasonal storms. Residents begin to see taxes not as burdens but as investments in their future."
+      "The transition isn't without friction. Some wealthier stakeholders threaten to pull out or relocate their business operations. But your message resonates with the broader population. Public support grows over time as the infrastructure visibly improves and withstands seasonal storms."
     ], 
   },
 
@@ -85,7 +85,7 @@ const story = {
 
       "Yet, newly developed inland towns experience growing pains, such as strained water supplies, crowded schools, and pressure on sanitation services. The government is under pressure to ensure services keep pace with migration. Additionally, some communities resist relocation due to their deeply rooted historical and cultural connections to their land, leading to a painful sense of cultural displacement.",
 
-      "Conversely, coastal tourism and fishing industries are declining, while the costs associated with disaster recovery and rebuilding are decreasing over time. The once-vibrant coastal tourism community and flourishing fishing industries are beginning to falter as population shifts contribute to this economic downturn.",
+      "Conversely, coastal tourism and fishing industries are declining, while the costs associated with disaster recovery and rebuilding are decreasing over time. The once-vibrant coastal tourism community and flourishing fishing industries are beginning to sputter as population shifts contribute to this economic downturn.",
 
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices will increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
@@ -102,37 +102,37 @@ const story = {
     text: [
       "You recognize that relocation isn't just about moving people and preserving identity. To address this, you establish a Cultural Heritage Relocation Program that works with communities to document, safeguard, and move cultural landmarks, local archives, and historical structures that risk being lost to rising seas and intensified storms.",
 
-      "You start by partnering with local historians, artists, elders, and anthropologists to identify high-priority sites. Oral histories are recorded, artifacts cataloged, and key buildings are structurally reinforced or carefully relocated. You allocate funding for cultural centers in safer inland areas where traditions can continue—spaces for festivals, storytelling, and craft-making.",
+      "You start by partnering with local historians, artists, community elders, and anthropologists to identify high-priority sites. Oral histories are recorded, artifacts cataloged, and key buildings are structurally reinforced or carefully relocated. You allocate funding for cultural centers in safer inland areas where traditions can continue.",
 
-      "You also ensure communities are not erased in the process. Your program respects the deep ties between place and identity and avoids treating relocation as cultural abandonment. Residents feel their legacy matters. While the physical locations may change, the spirit and history of Region A's people remain intact, rooted in memory and practice rather than threatened shorelines."
+      "You ensure communities are not erased in the process. Your program respects the deep ties between people, place, and identity. While the physical locatioay change, the spirit and history of Region A's people remain intact, rooted in memory and practice rather than threatened shorelines."
     ],
   },
 
   OptionB2: {
     text: [
-      "As economic centers along the coast become increasingly vulnerable, you know a transition must happen—and quickly. You create a Coastal Economic Transition Fund to support local economies shifting away from high-risk, high-impact industries (like beachfront tourism or overfishing) toward more sustainable inland alternatives.",
+      "As economic centers along the coast become increasingly vulnerable, you create a Coastal Economic Transition Fund to support local economies transitioning away from high-risk, high-impact industries toward more sustainable inland opportunities.",
 
-      "Your fund offers seed capital for green businesses, inland tourism cooperatives, aquaponics ventures, and renewable energy startups. Small business owners can apply for technical assistance and interest-free loans. You also establish retraining support for workers transitioning out of climate-vulnerable sectors.",
+      "You establish retraining support for workers transitioning out of climate-vulnerable labor sectors while small business owners can apply for technical assistance and interest-free loans.",
 
-      "You accompany this policy with careful messaging: this isn't abandonment—it's evolution. Communities are reassured that their livelihoods will not disappear but adapt. Over time, the fund helps re-anchor economic activity on safer ground, preventing economic collapse in the wake of environmental change and strengthening resilience from the inside out."
+      "Communities are reassured that their livelihoods will not disappear but adapt to become resistant to climate change and burgeoning environmental threats. Over time, the fund helps re-anchor economic activity on safer ground, preventing socioeconomic collapse in the event of catastrophic environmental change and strengthening resilience from the inside out."
     ],
   },
 
   OptionB3: {
     text: [
-      "You know that forced top-down relocation would breed resentment and trauma, so you empower residents to lead their future through Relocation Committees. Each committee comprises local leaders, urban planners, environmental scientists, and neighborhood representatives who work together to design and oversee community-driven relocation plans.",
+      "You know that forced top-down relocation is ineffective and inhumane, so you empower residents to lead their future through Relocation Committees. Each committee comprises local leaders, urban planners, environmental scientists, and neighborhood representatives who work together to design and oversee community-driven relocation plans.",
 
-      "These committees are granted authority to select sites, set timelines, and coordinate logistics, such as land transfers, transportation, and housing construction. You ensure meetings are open and multilingual, reflecting the diversity of the islands. Committees also receive funds to hold workshops and engage in scenario-planning exercises with their constituents.",
+      "These committees are granted authority to select sites, set timelines, and coordinate logistics, such as land transfers, transportation, and housing construction. You ensure meetings are open and multilingual, reflecting island diversity.",
 
-      "This participatory process transforms relocation from an act of loss into one of collective decision-making. People feel heard. Community bonds are preserved even when geography changes. Critically, relocation becomes not a last resort but a proactive step toward safety, dignity, and long-term survival."
+      "This participatory process recontextualizes relocation as collective decision-making to foster community agency and ownership. People feel heard. Community bonds are preserved even when geography changes. Critically, relocation becomes a proactive step toward safety, dignity, and long-term survival."
     ],
   },
 
   OptionB4: {
     text: [
-      "As communities move inland, you propose an ambitious plan to rezone vacated coastal areas for environmental restoration. Instead of selling the land to developers or leaving it unregulated, you convert it into nature reserves, mangrove reforestation zones, and storm buffer ecosystems. You coordinate with ecologists, coastal engineers, and indigenous land stewards to develop restoration strategies that increase biodiversity and enhance climate resilience. Wetlands are rehabilitated to absorb floodwaters, while mangrove forests are replanted to reduce wave impacts. You pass legislation to protect these zones from future development or commercial exploitation.",
+      "As communities move inland, you propose an ambitious plan to rezone vacated coastal areas for environmental restoration. Instead of selling the land to developers or leaving it unregulated, you convert it into nature reserves, mangrove reforestation zones, and storm buffer ecosystems.",
 
-      "This zoning plan sends a strong signal: Region A is not retreating in defeat but repositioning with foresight. Over time, these restored coastal ecosystems act as natural shields, protecting inland settlements and contributing to carbon sequestration goals. Residents take pride in the idea that what was once lost can now become a source of life, protection, and regeneration."
+      "You coordinate with ecologists, coastal engineers, and indigenous land stewards to develop restoration strategies that increase biodiversity and enhance climate resilience. Wetlands are rehabilitated to absorb floodwaters, while mangrove forests are replanted to reduce wave impacts. You pass legislation to protect these zones from future development or commercial exploitation. Over time, these restored coastal ecosystems act as natural shields, protecting inland settlements and contributing to carbon capture goals.",
     ],
   },
 
@@ -141,9 +141,11 @@ const story = {
   
   OptionC: {
     text: [
-      "You propose legislation granting Region A greater autonomy in securing international aid, loans, and partnerships with organizations such as NGOs or neighboring countries for infrastructure development. This approach enables critical rebuilding efforts to start sooner by utilizing foreign or non-federal support, thus bypassing federal inaction. However, the central government retaliates and reduces other forms of funding in response. Implementing innovative practices and successful strategies from abroad leads to improved outcomes. However, some financing agreements impose long-term repayment challenges on the region.",
+      "You propose legislation granting Region A greater autonomy in securing international aid, loans, and partnerships with organizations such as NGOs or neighboring countries for infrastructure development. This approach enables critical rebuilding efforts to start sooner by utilizing foreign support, thus bypassing federal inaction.",
 
-      "Moreover, you advocate for national legislation acknowledging Region A's historical exclusion from equitable development. This legislation would allocate funds for reparative justice through investments in environmental, economic, and healthcare initiatives. However, securing equitable representation for Region A remains challenging due to rising tensions.",
+      "The central government retaliates and reduces other forms of funding in response. Implementing innovative practices and successful strategies from abroad leads to improved outcomes for vulnerable residents. However, some financing agreements impose long-term repayment challenges on the region.",
+
+      "You advocate for national legislation acknowledging Region A's historical exclusion from equitable development. This legislation would allocate funds for environmental justice through investments in environmental, economic, and healthcare initiatives. However, securing equitable representation for Region A remains challenging due to rising tensions.",
 
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices will increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
@@ -160,17 +162,17 @@ const story = {
     text: [
       "Region A cannot rebuild its deteriorating infrastructure independently; federal neglect has persisted for too long, and the stakes are high. Therefore, you begin negotiations to establish a legally binding Infrastructure Compact between Region A and the federal government. This compact will outline specific funding benchmarks, project timelines, and mutual responsibilities related to resilience-building efforts.",
 
-      "You request funding and guarantees, including a system for overseeing disbursements linked to performance and public reporting requirements. In exchange, you agree to improve project readiness and ensure compliance with national building codes. This agreement compels the federal government to view Region A not as a peripheral dependency but as an equal partner with shared interests in climate adaptation.",
+      "You request funding and guarantees, including a system for overseeing disbursements linked to performance and public reporting requirements. In exchange, you agree to improve project readiness and ensure compliance with national building codes. This agreement compels the federal government to view Region A as an equal partner with shared interests in climate adaptation and resilience.",
 
-      "The process is challenging; political friction and bureaucratic resistance hinder progress. However, public pressure, media coverage, and the increasing impact of natural disasters create momentum for change. When the agreement is finally signed, it serves as a model for other vulnerable regions. You have gained more than just funding; you have restored political legitimacy and the authority to shape the future of your area."
+      "The process is challenging; political friction and bureaucratic resistance hinder progress. Public pressure, media coverage, and the increasing impact of natural disasters create momentum for change. When the agreement is finally signed, it serves as a model for other vulnerable regions. You have gained more than just funding; you have restored political legitimacy and the authority to determine the future of Region A."
     ],
   },
 
   OptionC2: {
     text: [
-      "You recognize that corruption, inefficiency, and opaque financial practices have historically undermined public trust and wasted valuable resources. To address this issue, you establish a Debt Transparency and Accountability Office (DTAO)—an independent body responsible for auditing all existing infrastructure debt, overseeing new contracts, and tracking every dollar spent.",
+      "You recognize that corruption, inefficiency, and back-door financial practices have historically undermined public trust and wasted valuable resources. To address this issue, you establish a Debt Transparency and Accountability Office (DTAO)—an independent body responsible for auditing all existing infrastructure debt, overseeing new contracts, and tracking every dollar spent.",
 
-      "You staff the office with independent economists, legal experts, civil society leaders, and digital transparency specialists. Every infrastructure loan, contract, and spending decision is published online through user-friendly dashboards. This initiative is not just internal bureaucracy but a way to restore public confidence.", 
+      "You staff the office with independent economists, legal experts, and digital transparency specialists. Every infrastructure loan, contract, and spending decision is published online through user-friendly dashboards. This initiative is not just internal bureaucracy but a way to restore public confidence.", 
 
       "By exposing past and present spending, you weaken the influence of corruption and create opportunities for international investment. The DTAO also helps identify redundant or abusive debt structures and renegotiate terms where possible. Over time, this office becomes a vigorous watchdog and sends a clear message to the world that Region A is committed to clean, equitable, and climate-smart governance."
     ],
@@ -190,9 +192,9 @@ const story = {
     text: [
       "You realize that relying solely on national or regional funds is insufficient—Region A needs global partners. Through formal international engagements, you lead an initiative to attract multilateral development banks, foreign governments, and private international infrastructure firms. You present Region A as a testing ground for innovative, climate-smart infrastructure solutions.",
 
-      "To facilitate this, you host an international summit, inviting investors, engineers, climate finance leaders, and resilience experts. Your pitch emphasizes transparency, community participation, and environmental justice. You also highlight the need for sustainable development, including roads and bridges, solar grids, water reclamation systems, and storm-resilient transit hubs.",
+      "To facilitate this, you host an international summit, inviting investors, engineers, climate finance leaders, and climate resilience experts. Your pitch emphasizes transparency, community participation, and environmental justice. You also highlight the need for sustainable development, including roads and bridges, solar grids, water reclamation systems, and storm-resilient emergency shelters.",
 
-      "Although you remain cautious, these efforts successfully bring in new capital and technical expertise. You implement legal safeguards to prevent land grabs and exploitative contracts. With international backing, your infrastructure projects progress more rapidly and effectively. You've secured funding and positioned Region A as a global leader in climate-resilient development."
+      "Your these efforts successfully bring in new capital and technical expertise. However, you fail to implement necessary legal safeguards to prevent land grabs and exploitative contracts with 3rd party actors. With international backing, your infrastructure projects progress more rapidly and effectively but you fight to rectify previous legal failings to ensure national security."
     ],
   },
 
@@ -203,7 +205,7 @@ const story = {
     text: [
       "You erect a decentralized governing body composed of residents, climate scientists, urban planners, and Indigenous leaders to collaboratively design infrastructure and disaster response plans. This council receives public funding and has decision-making authority. Region A aims to reduce its reliance on mainland energy systems by creating a state-run utility that will invest in solar, wind, and tidal energy, positioning itself as a leader in sustainable power.",
 
-      "Residents feel empowered and more engaged in long-term solutions that reflect their community's experiences and cultural values. However, decision-making is slower due to diverse viewpoints and priorities, and national officials challenge the council's authority and withhold funding. Following the initial investments, the region generates 50% of its electricity from renewable sources. Blackouts become infrequent, energy prices stabilize, and quality of life and business continuity improve.",
+      "Residents feel empowered and more engaged in long-term solutions that reflect their community's experiences and cultural values. However, decision-making is slower due to diverse viewpoints and priorities, and national officials challenge the council's authority and withhold funding. Following the initial investments, the region generates 50% of its electricity from renewable sources. Blackouts become infrequent, energy prices stabilize, and quality of life and economic development improve.",
 
       "Opposition arises from mainland fossil fuel providers and utility corporations, which lobby against this transition, threatening legal action and withholding infrastructure support. Meanwhile, remote or economically disadvantaged islands face logistical challenges in accessing these green energy benefits.",
 
@@ -211,10 +213,10 @@ const story = {
     ],
 
     options: [
-      { text: "Enact Rotating Representation and Term Limits", next: "OptionD1" },
-      { text: "Form a Federal Advisory Liasion Office", next: "OptionD2" },
-      { text: "Secure independent funding sources", next: "OptionD3" },
-      { text: "Adopt Participatory Budgeting Tools", next: "OptionD4" }
+      { text: "Implement Rotating Representation and Official Term Limits", next: "OptionD1" },
+      { text: "Institute a Designated Advisory Liasion Office", next: "OptionD2" },
+      { text: "Secure Independent Funding Sources", next: "OptionD3" },
+      { text: "Enact Participatory Budgeting Tools", next: "OptionD4" }
     ]
   },
 
@@ -250,7 +252,7 @@ const story = {
 
   OptionD4: {
     text: [
-      "You believe rebuilding trust requires more than mere promises; it demands putting absolute power into people's hands. To achieve this, you implement participatory budgeting tools across municipalities, giving residents a direct say in allocating public funds. The initiative begins with pilot programs in storm-prone districts and eventually expands to all major budget lines.",
+      "You believe rebuilding trust requires more than mere promises; it demands putting power into people's hands. To achieve this, you implement participatory budgeting tools across municipalities, giving residents a direct say in allocating public funds. The initiative begins with pilot programs in storm-prone districts and eventually expands to all major budget lines.",
 
       "You train local officials and organize community workshops to explain the process. Residents are encouraged to propose and vote on small-scale projects such as solar panel installations, storm drains, school air filters, and emergency shelters. To improve accessibility, you integrate digital tools and make a concerted effort to prioritize marginalized voices, particularly those from rural or low-income areas.",
 

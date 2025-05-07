@@ -6,10 +6,10 @@ const story = {
       "Lorem ipsum dolor sit amet consectetur. Pulvinar sed integer arcu nisl. Arcu risus posuere amet tellus lacinia sed purus eget. Pharetra tellus ipsum arcu faucibus enim ipsum. Diam scelerisque vel viverra quis tortor neque. Sed vestibulum accumsan mauris ut vel. Malesuada nam suscipit erat leo viverra elit lectus quis enim. Massa ac odio dictum eu. Volutpat adipiscing habitant viverra quam viverra quam. Nullam velit pellentesque elementum nascetur. Posuere consectetur facilisi mattis non turpis venenatis eget. Enim purus proin dignissim aliquam tristique."
     ],
     options: [
-      { text: "Option 1", next: "Option1" },
-      { text: "Option 2", next: "Option2" },
-      { text: "Option 3", next: "Option1" },
-      { text: "Option 4", next: "Option2" }
+      { text: "Environmental Vulnerability", next: "Option1" },
+      { text: "Socioeconomic Vulnerability", next: "Option2" },
+      { text: "Sociopolitical Vulnerability", next: "Option1" },
+      { text: "Social Vulnerability", next: "Option2" }
     ]
   },
   Option1: {

@@ -1,9 +1,11 @@
 const story = {
   start: {
     text: [
-      "Lorem ipsum dolor sit amet consectetur. Pulvinar sed integer arcu nisl. Arcu risus posuere amet tellus lacinia sed purus eget. Pharetra tellus ipsum arcu faucibus enim ipsum. Diam scelerisque vel viverra quis tortor neque. Sed vestibulum accumsan mauris ut vel. Malesuada nam suscipit erat leo viverra elit lectus quis enim. Massa ac odio dictum eu. Volutpat adipiscing habitant viverra quam viverra quam. Nullam velit pellentesque elementum nascetur. Posuere consectetur facilisi mattis non turpis venenatis eget. Enim purus proin dignissim aliquam tristique.",
+      "Region B is a West African nation near the Atlantic Ocean. Its land includes verdant forests, rivers, lakes, and wetlands. It is particularly susceptible to rising temperatures and heat waves, which erode historic wildlife habitats and disturb rural villages. In response, rural populations rapidly migrate from rural to urban areas to escape severe floods, droughts, and heatwaves exacerbated by climate change. ",
       
-      "Lorem ipsum dolor sit amet consectetur. Pulvinar sed integer arcu nisl. Arcu risus posuere amet tellus lacinia sed purus eget. Pharetra tellus ipsum arcu faucibus enim ipsum. Diam scelerisque vel viverra quis tortor neque. Sed vestibulum accumsan mauris ut vel. Malesuada nam suscipit erat leo viverra elit lectus quis enim. Massa ac odio dictum eu. Volutpat adipiscing habitant viverra quam viverra quam. Nullam velit pellentesque elementum nascetur. Posuere consectetur facilisi mattis non turpis venenatis eget. Enim purus proin dignissim aliquam tristique."
+      "Local governments are increasingly concerned about population decline in rural villages caused by climate-induced migration. Many individuals are leaving rural communities, where rising temperatures impact their livelihoods, searching for better social and economic opportunities in urban areas. Rural communities, primarily agricultural, play a vital role in providing food for themselves and urban centers. Therefore, it is particularly alarming that farmers are abandoning their farms for non-agricultural work in cities due to the challenges posed by climate change, which are making farming increasingly challenging.",
+
+      "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
       { text: "Option 1", next: "Option1" },
@@ -12,28 +14,75 @@ const story = {
       { text: "Option 4", next: "Option2" }
     ]
   },
-  Option1: {
+
+// OPTION A
+// ===============================================================================
+
+  OptionA: {
     text: [
-      "Lorem ipsum dolor sit amet consectetur. Pulvinar sed integer arcu nisl. Arcu risus posuere amet tellus lacinia sed purus eget. Pharetra tellus ipsum arcu faucibus enim ipsum. Diam scelerisque vel viverra quis tortor neque. Sed vestibulum accumsan mauris ut vel. Malesuada nam suscipit erat leo viverra elit lectus quis enim. Massa ac odio dictum eu. Volutpat adipiscing habitant viverra quam viverra quam. Nullam velit pellentesque elementum nascetur. Posuere consectetur facilisi mattis non turpis venenatis eget. Enim purus proin dignissim aliquam tristique.",
+      "To address rural population exodus and the decline in agricultural productivity, we are initiating a comprehensive Climate-Resilient Agriculture Initiative. This program aims to equip farmers with the tools and knowledge to adapt to changing climatic conditions, ensuring sustainable food production and livelihoods. The initiative seeks to enhance resilience against droughts, floods, and heatwaves by integrating traditional farming practices with modern climate-smart techniques.",
+
+      "Central to this initiative is promoting climate-smart agriculture, which includes practices such as agroforestry, conservation agriculture, and drought-resistant crop varieties. We are establishing training programs to educate farmers on these methods, emphasizing the importance of soil health, water conservation, and diversified cropping systems. Additionally, the initiative supports the development of local seed banks and disseminates early warning systems for extreme weather events.",
+
+      "This initiative aims to revitalize rural agriculture through climate adaptation and make farming a viable and attractive livelihood. This effort curbs rural-to-urban migration and ensures food security for rural and urban populations. Moreover, empowering farmers with adaptive strategies contributes to the broader goal of building resilient communities in the face of climate change."
     ],
     options: [
-      { text: "Option 1", next: "Option1" },
-      { text: "Option 2", next: "Option2" },
-      { text: "Option 3", next: "Option1" },
-      { text: "Option 4", next: "Option2" }
+      { text: "Option 1", next: "OptionA1" },
+      { text: "Option 2", next: "OptionA2" },
+      { text: "Option 3", next: "OptionA3" },
+      { text: "Option 4", next: "OptionA4" }
     ]
   },
-  Option2: {
+
+ // OPTION B
+// ===============================================================================
+  
+  OptionB: {
+    text: [
+      "Recognizing that agriculture alone may not sustain rural economies in changing climatic conditions, we implement programs to diversify rural livelihoods. These initiatives strive to create alternative income-generating opportunities, reduce reliance on climate-sensitive agriculture, and enhance community resilience. By broadening the economic base, rural areas become more appealing to residents, helping to limit migration to urban centers.",
+
+      "The programs emphasize skill development, entrepreneurship, and the promotion of small and medium-sized enterprises in agro-processing, handicrafts, and renewable energy sectors. We establish training centers to equip individuals with essential skills, while providing access to microcredit and business development services to support the establishment and growth of SMEs. Special attention is given to empowering women and youth, as their potential is vital for driving economic transformation.",
+
+      "These programs foster diversified and resilient rural economies, offering alternative livelihoods and stimulating local markets and services. This comprehensive approach contributes to the overall well-being of rural communities, making them more self-reliant and less vulnerable to the negative impacts of climate change."
+    ],
+    options: [
+      { text: "Establish Climate-Smart Agriculture Training Centers", next: "OptionB1" },
+      { text: "Provide Access to Drought-Resistant Seed Varieties", next: "OptionB2" },
+      { text: "Implement Community-Based Water Harvesting Systems", next: "OptionB3" },
+      { text: "Launch Agricultural Microfinance Programs", next: "OptionB4" }
+    ],
+  },
+
+// OPTION C
+// ===============================================================================
+  
+  OptionC: {
     text: [
       "Lorem ipsum dolor sit amet consectetur. Pulvinar sed integer arcu nisl. Arcu risus posuere amet tellus lacinia sed purus eget. Pharetra tellus ipsum arcu faucibus enim ipsum. Diam scelerisque vel viverra quis tortor neque. Sed vestibulum accumsan mauris ut vel. Malesuada nam suscipit erat leo viverra elit lectus quis enim. Massa ac odio dictum eu. Volutpat adipiscing habitant viverra quam viverra quam. Nullam velit pellentesque elementum nascetur. Posuere consectetur facilisi mattis non turpis venenatis eget. Enim purus proin dignissim aliquam tristique.",
     ],
     options: [
-      { text: "Option 1", next: "Option1" },
-      { text: "Option 2", next: "Option2" },
-      { text: "Option 3", next: "Option1" },
-      { text: "Option 4", next: "Option2" }
+      { text: "Option 1", next: "OptionC1" },
+      { text: "Option 2", next: "OptionC2" },
+      { text: "Option 3", next: "OptionC3" },
+      { text: "Option 4", next: "OptionC4" }
     ]
-  }
+  },
+
+// OPTION D
+// ===============================================================================
+  
+OptionD: {
+  text: [
+    "Lorem ipsum dolor sit amet consectetur. Pulvinar sed integer arcu nisl. Arcu risus posuere amet tellus lacinia sed purus eget. Pharetra tellus ipsum arcu faucibus enim ipsum. Diam scelerisque vel viverra quis tortor neque. Sed vestibulum accumsan mauris ut vel. Malesuada nam suscipit erat leo viverra elit lectus quis enim. Massa ac odio dictum eu. Volutpat adipiscing habitant viverra quam viverra quam. Nullam velit pellentesque elementum nascetur. Posuere consectetur facilisi mattis non turpis venenatis eget. Enim purus proin dignissim aliquam tristique.",
+  ],
+  options: [
+    { text: "Option 1", next: "OptionD1" },
+    { text: "Option 2", next: "OptionD2" },
+    { text: "Option 3", next: "OptionD3" },
+    { text: "Option 4", next: "OptionD4" }
+  ]
+}
+
 }
 
 // narrative function

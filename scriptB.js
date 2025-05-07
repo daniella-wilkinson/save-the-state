@@ -8,10 +8,10 @@ const story = {
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
-      { text: "Launch a Climate-Resilient Rural Development Program", next: "Option1" },
-      { text: "Institute an Urban Affordable Housing & Infrastructure Authority", next: "Option2" },
-      { text: " Form a Climate Migration Strategy Team", next: "Option1" },
-      { text: " Expand Decentralized Urban Governance and Fiscal Autonomy", next: "Option2" }
+      { text: "Launch a Climate-Resilient Rural Development Program", next: "OptionA" },
+      { text: "Institute an Urban Affordable Housing & Infrastructure Authority", next: "OptionB" },
+      { text: " Form a Climate Migration Strategy Team", next: "OptionC" },
+      { text: " Expand Decentralized Urban Governance and Fiscal Autonomy", next: "OptionD" }
     ]
   },
 

@@ -29,7 +29,7 @@ const story = {
       { text: "Fund Solar Microgrids in Isolated Villages", next: "OptionA2" },
       { text: "Train Rural Youth in Eco-Restoration Employment", next: "OptionA3" },
       { text: "Implement Firebreak Zoning & Community Watch Plans", next: "OptionA4" }
-    ],
+    ]
   },
 
   OptionA1: {

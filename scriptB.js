@@ -10,9 +10,9 @@ const story = {
     options: [
       { text: "Launch a Climate-Resilient Rural Development Program", next: "OptionA" },
       { text: "Institute an Urban Affordable Housing & Infrastructure Authority", next: "OptionB" },
-      { text: " Form a Climate Migration Strategy Team", next: "OptionC" },
-      { text: " Expand Decentralized Urban Governance and Fiscal Autonomy", next: "OptionD" }
-    ]
+      { text: "Form a Climate Migration Strategy Team", next: "OptionC" },
+      { text: "Expand Decentralized Urban Governance and Fiscal Autonomy", next: "OptionD" }
+    ],
   },
 
 // OPTION A

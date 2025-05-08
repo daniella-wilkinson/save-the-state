@@ -84,7 +84,9 @@ const story = {
 
   OptionB1: {
     text: [
-     "You draft a new set of planning rules and regulations focused on environmentally-conscious urban planning to mitigate urban sprawl, concentrating development in existing urban centers, and preserving underdeveloped land near the delta. You form planning councils that include scientists, architects, and citizen representatives. Though it meets initial resistance from some developers, your approach helps prevent reckless expansion into fragile flood zones and lays the foundation for safer, more sustainable urban growth and development."
+     "You draft a new set of planning rules and regulations focused on environmentally-conscious urban planning to mitigate urban sprawl, concentrating development in existing urban centers, and preserving underdeveloped land near the delta.",
+
+     "You form planning councils that include scientists, architects, and citizen representatives. Though it meets initial resistance from some developers, your approach helps prevent reckless expansion into fragile flood zones and lays the foundation for safer, more sustainable urban growth and development."
     ], 
   },
 
@@ -126,25 +128,33 @@ OptionC: {
 
   OptionC1: {
     text: [
-    "You commission a region-wide overhaul of drainage infrastructure. Instead of patchwork fixes, you integrate predictive flood modeling and green engineering principles into the upgrade. Outlets are widened, pumps are replaced, and stormwater tunnels are expanded. You also install overflow alert systems so communities can act quickly when risks are high. Within a few years, the system handles storms that would've previously caused disaster."
+    "You commission a region-wide overhaul of drainage infrastructure. Instead of patchwork fixes, you integrate predictive flood modeling and green engineering principles into the upgrade. Outlets are widened, pumps are replaced, and stormwater tunnels are expanded.",
+
+    "You also install overflow alert systems so communities can act quickly when risks are high. Within a few years, the system handles storms that would've previously caused disaster."
     ], 
   },
 
   OptionC2: {
     text: [
-    "You design an ambitious plan to elevate key transit routes and evacuation corridors above projected flood levels. Though expensive, the long-term savings in life and property protection are undeniable. You prioritize routes near hospitals, schools, and dense neighborhoods. When the next flood hits, these elevated paths save hundreds of lives and keep supply lines open. It's a powerful testament to planning."
+    "You develop an extensive, forward-thinking strategy to raise critical transit routes and evacuation corridors well above anticipated flood levels. Although the project requires significant investment, the potential long-term savings in safeguarding lives and protecting property are beyond dispute. Your focus is on elevating routes adjacent to essential services such as hospitals, educational institutions, and densely populated neighborhoods, ensuring easy access for emergency response teams and residents alike.",
+
+    "As the next catastrophic flood event strikes, these meticulously elevated pathways are life-saving, facilitating swift evacuations and ensuring that vital supply chains remain operational. This initiative demonstrates a proactive approach to urban planning and stands as a compelling testament to the impact of strategic foresight in disaster preparedness. It ultimately preserves hundreds of lives and enhances community resilience in the face of natural disasters."
     ], 
   },
 
   OptionC3: {
     text: [
-    "You bring together engineers, university researchers, and local officials to create Green Innovation Labs that prototype low-cost, nature-based solutions for public infrastructure. These include stormwater harvesting systems, floating walkways, and flood-resistant building materials. These labs train young technicians and provide career pathways while adapting old systems for a changing environment."
+    "You assemble engineers, university researchers, and local government officials to establish Green Innovation Labs, where they collaborate to develop innovative, low-cost, nature-inspired solutions for public infrastructure challenges. These labs focus on prototyping systems such as advanced stormwater harvesting systems that efficiently collect and reuse rainfall, environmentally friendly floating walkways that enhance waterfront access while minimizing ecological impact, and flood-resistant building materials designed to withstand extreme weather conditions.",
+
+    "In addition to fostering creative problem-solving, these labs play a crucial role in training the next generation of technicians, equipping them with hands-on skills and knowledge necessary for sustainable practices. They also create clear career pathways, ensuring that young professionals are prepared to adapt and modernize outdated systems in response to the evolving environmental landscape."
     ], 
   },
 
   OptionC4: {
     text: [
-    "You lead a region-wide audit to assess whose neighborhoods benefit most from flood defenses and which are left vulnerable. The audit reveals longstanding disparities—poor and marginalized communities are most at risk. You use the findings to redirect infrastructure spending equitably, ensuring no one is sacrificed to geography or political neglect. This creates both social and environmental resilience."
+      "You initiate an extensive audit throughout the region to assess the effectiveness of existing flood defenses, pinpointing which neighborhoods receive adequate protection and remain highly vulnerable to flooding. Throughout this thorough examination, you discover alarming and persistent disparities: low-income and marginalized communities are disproportionately at risk, facing heightened exposure to flooding due to inadequate infrastructure and resources.",
+
+      "Armed with these critical insights, you strategically redistribute infrastructure funding. This strategic reallocation aims to provide equitable support across all neighborhoods, ensuring that no community is left to bear the brunt of environmental challenges due to their geographic location or historical political neglect. By prioritizing investments in the most at-risk areas, your approach addresses immediate vulnerabilities and fosters long-term social equity and environmental resilience, building a stronger foundation for all residents to thrive, regardless of their socioeconomic status."
     ], 
   },
 
@@ -169,28 +179,38 @@ OptionC: {
 
   OptionD1: {
     text: [
-      "You help set up neighborhood flood response teams trained in emergency preparedness, sandbagging, water testing, and community alerts. These teams operate like citizen fire brigades but are trained for flood-specific events. These local teams are first on the ground when heavy rain falls, providing aid before federal agencies arrive. Their presence builds trust and speeds up response."
+      "You play a crucial role in establishing neighborhood flood response teams specially trained in various aspects of emergency preparedness. These teams undergo focused training in sandbagging techniques to mitigate floodwaters effectively, conduct water testing to ensure local water safety, and implement community alert systems to keep residents informed during flood events.",
+
+      "Operating similarly to volunteer fire brigades, these local teams are explicitly equipped to respond to flood emergencies. They are often the first responders to arrive on the scene when heavy rainfall triggers potential flooding, offering immediate assistance to those affected long before federal agencies can mobilize.",
+
+      "Having these trained teams within the community fosters trust among residents, creating a sense of security and solidarity. Their prompt action not only alleviates the immediate impact of floods but also enhances the overall efficiency of the response efforts, ensuring that help arrives quickly and effectively."
     ], 
   },
 
 
   OptionD2: {
     text: [
-      "You realize that community awareness is as critical as infrastructure. You develop a campaign to educate residents about flood zones, insurance options, evacuation procedures, and household preparedness. Materials are multilingual and accessible. You partner with local schools and faith organizations. In time, people learn to prepare for and respond to floods proactively rather than reactively."
+      "You realize that community awareness is as critical as infrastAwareness within the community is just as vital as the sturdy infrastructure that supports it. Recognizing this, you orchestrate a comprehensive campaign to enlighten residents about the intricacies of flood zones, the nuances of insurance options, essential evacuation procedures, and the importance of household preparedness. The educational materials are crafted to be multilingual and user-friendly, ensuring that no one is left in the dark.",
+
+      "To further extend your reach, you form dynamic partnerships with local schools and faith organizations, weaving a support network throughout the community. Gradually, the community shifts from a stance of reaction to one of proactive engagement, as residents become equipped with the knowledge and tools they need to prepare for floods. This transformation fosters a sense of empowerment, unity, and resilience, turning uncertainty into confidence and transforming their approach to flood challenges."
     ], 
   },
 
 
   OptionD3: {
     text: [
-      "You institutionalize local power by creating citizen review boards that evaluate new urban development proposals, especially those affecting flood-prone areas. These boards ensure communities have a say in where and how buildings go up. Residents gain the power to halt or reshape projects that increase flood risks. Over time, developers begin to anticipate public resistance and incorporate flood mitigation."
+      "You empower local communities by establishing citizen review boards that meticulously assess new urban development proposals, particularly in flood-prone areas. These boards act as a vital link between residents and decision-makers, ensuring that the community's voices resonate loud and clear regarding building placement and design. Through this collaborative approach, residents gain the authority to challenge and reshape projects that threaten to exacerbate flood risks, transforming their concerns into actionable insights.",
+
+      "Consequently, developers recognize the importance of community input, adjusting their plans thoughtfully to incorporate flood mitigation strategies. This ultimately leads to more resilient and harmonious urban landscapes. Over time, this convergence of civic engagement and urban planning fosters a culture where the community's and the environment's needs are prioritized and respected."
     ], 
   },
 
 
   OptionD4: {
     text: [
-      "You allocate a portion of the annual flood management budget through participatory budgeting. Residents propose and vote on how to use these funds: raised sidewalks? water pumps? community storage units? You set limits but leave the rest in the community's hands. Not only do they choose wisely, but they also protect what they built because they chose it."
+      "You dedicate a significant portion of the annual flood management budget to a vibrant participatory budgeting process, inviting residents to actively shape your community's future. This dynamic initiative allows locals to propose and vote on innovative solutions tailored to their needs, empowering them to choose from an array of options that include raised sidewalks designed to keep their feet dry during heavy rains, efficient water pumps to aid in quick drainage, and sturdy community storage units to safeguard their belongings against unpredictable weather.",
+
+      "While you establish specific parameters to guide the process, the true power rests firmly in the hands of the community. They delve into discussions, weighing the benefits of each proposal with great care, and take great pride in making thoughtful decisions. This sense of ownership fosters a deep commitment to safeguarding the projects they have championed, as they understand the value of their collective voice and effort in the decision-making journey. Through this collaborative approach, they build structures to protect their homes and weave a stronger bond within their community, united in their quest for resilience against the forces of nature."
     ], 
   },
 }
@@ -247,9 +267,17 @@ function updateHistoryView() {
   const list = document.getElementById("history-list");
   list.innerHTML = "";
 
-  history.forEach(entry => {
+  history.forEach((entry, index) => {
     const li = document.createElement("li");
-    li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+
+    // If it's the last entry, include sceneText (description)
+    if (index === history.length - 1) {
+      li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+    } else {
+      // For earlier entries, show only the policy choice
+      li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}</div>`;
+    }
+
     list.appendChild(li);
   });
 }

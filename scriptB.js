@@ -9,9 +9,9 @@ const story = {
     ],
     options: [
       { text: "Launch a Climate-Resilient Rural Development Program", next: "OptionA" },
-      { text: "Institute an Urban Affordable Housing & Infrastructure Authority", next: "OptionB" },
-      { text: "Form a Climate Migration Strategy Team", next: "OptionC" },
-      { text: "Expand Decentralized Urban Governance and Fiscal Autonomy", next: "OptionD" }
+      { text: "Support Affordable Housing", next: "OptionB" },
+      { text: "Erect Climate Migration Strategy", next: "OptionC" },
+      { text: "Decentralize Urban Governance", next: "OptionD" }
     ],
   },
 
@@ -25,10 +25,10 @@ const story = {
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
-      { text: "Subsidize Local Agroforestry Initiatives", next: "OptionA1" },
-      { text: "Fund Solar Microgrids in Isolated Villages", next: "OptionA2" },
-      { text: "Train Rural Youth in Eco-Restoration Employment", next: "OptionA3" },
-      { text: "Implement Firebreak Zoning & Community Watch Plans", next: "OptionA4" }
+      { text: "Support Local Agroforestry", next: "OptionA1" },
+      { text: "Implement Solar Microgrids in Isolated Villages", next: "OptionA2" },
+      { text: "Provide Job-Training in Eco-Restoration Employment", next: "OptionA3" },
+      { text: "Implement Firebreak Zoning", next: "OptionA4"}
     ]
   },
 
@@ -42,19 +42,26 @@ const story = {
 
   OptionA2: {
     text: [
-      "You fund solar-powered microgrids to bring stable electricity to villages far from the national grid. Access to power makes schools more effective, businesses more viable, and health clinics more reliable. With electricity comes opportunity. Villagers no longer feel disconnected from progress. Energy access helps stop migration by transforming rural life."
+      "We invest in developing solar-powered microgrids, which provide a dependable source of electricity to remote villages that are not connected to the national power grid. This access to reliable electricity significantly enhances educational opportunities, making schools more effective learning environments. By powering local businesses, we help to create sustainable economic growth, allowing entrepreneurs to expand their offerings and reach more customers. Furthermore, health clinics benefit from reliable energy, enabling them to operate essential medical equipment and maintain proper storage for medicines, thus providing better healthcare services to the community.",
+
+      "With a consistent electricity supply, villagers experience a newfound sense of connectivity to the modern world, fostering a spirit of innovation and progress. This energy access transformation revitalizes local economies and contributes to reducing migration to urban areas, as improved living conditions encourage families to remain in their rural communities. Ultimately, by bringing electricity to these villages, we are not just providing a utility but unlocking a world of opportunities for a brighter future."
+
     ], 
   },
 
   OptionA3: {
     text: [
-      "You launch a training program that employs young workers entering the labor market to restore wetlands, prevent soil erosion, and manage fire-prone areas. This puts money in pockets and skills in hands without requiring migration to cities. Participants gain dignity through meaningful work. Your program reframes conservation as a job creator, not a cost center. Rural residents now see a future where they can stay and succeed."
+      "You initiate a comprehensive training program to empower young professionals beginning their professional careers. This program focuses on critical environmental tasks such as restoring wetlands, preventing soil erosion, and managing areas at high risk of wildfires. By engaging these young workers in hands-on projects, you provide them with valuable income and equip them with essential skills that will serve them well in their future careers without necessitating a move to urban centers.",
+
+      "Participants experience a renewed sense of purpose and self-worth as they contribute to meaningful work that benefits their communities and the environment. Your initiative effectively reframes the narrative around conservation efforts, showcasing them as viable job opportunities rather than financial burdens. As a result, residents in rural areas are gaining a fresh perspective on their potential futures, recognizing that they can remain in their hometowns and flourish personally and professionally. This transformative approach fosters a sustainable local economy, allowing communities to thrive while preserving their natural resources for future generations."
     ], 
   },
 
   OptionA4: {
     text: [
-      "You partner with villagers to develop natural firebreaks and wildfire watch plans. Locals learn to manage fire-prone areas with indigenous knowledge enhanced by new training. These proactive defenses reduce loss of life and property. Instead of waiting for disaster, communities lead their resilience strategy, reinforcing their stake in the land."
+      "You collaborate closely with local villagers to establish effective natural firebreaks and comprehensive wildfire watch plans. By integrating traditional knowledge with modern training methods, the community gains valuable skills to manage and protect fire-prone landscapes. This hands-on approach empowers residents to take charge of their own safety and preserve their homes.",
+
+      "These proactive defenses significantly minimize the risk of loss of life and property. Rather than remaining passive and reactive in the face of potential disasters, these communities spearhead their own resilience strategies, thereby deepening their connection to the land and fostering a sense of stewardship that benefits them and enhances the overall health of the environment."
     ], 
   },
 
@@ -69,21 +76,31 @@ const story = {
     ],
     options: [
       { text: "Implement Rent-to-Own Housing Schemes for Migrant Families", next: "OptionB1" },
-      { text: "Construct Modular Housing Using Local Materials", next: "OptionB2" },
+      { text: "Construct Modular Temp. Housing Using Local Materials", next: "OptionB2" },
       { text: "Expand Municipal Waste & Sewage Systems to New Settlements", next: "OptionB3" },
-      { text: "Require Health Clinics in Every New Housing Block", next: "OptionB4" }
+      { text: "Designate Health Clinics in New Housing Blocks", next: "OptionB4" }
     ]
   },
 
   OptionB1: {
     text: [
-      "You create a rent-to-own program where families gradually earn home ownership. Instead of permanent slums, you offer a path to stability through subsidized payments and service-linked housing. Families are motivated to care for their homes, and urban blight declines. This sense of ownership improves mental health, community pride, and public health outcomes."
+      "Imagine implementing a rent-to-own program designed specifically to empower families on their journey toward home ownership. This innovative initiative replaces the cycle of permanent slums with a structured path to stability—one that includes subsidized payments tailored to each family's financial situation and housing linked to essential services like education and healthcare.",
+
+      "In this program, families are not just tenants but motivated homeowners who gradually build home equity. As they invest financially and emotionally in their living spaces, they develop a more profound sense of responsibility and commitment to maintaining their properties. This results in well-kept homes and neighborhoods, which helps combat urban blight and deterioration.",
+
+      "The positive ripple effects of this ownership model extend beyond physical improvements. Their connection to the community strengthens, fostering agency and engagement. Additionally, better living conditions contribute to improved public health outcomes, as families in stable environments experience lower stress levels and enhanced quality of life. Your program transforms individual lives and revitalizes entire neighborhoods, creating a healthier, more vibrant urban landscape."
     ], 
   },
 
   OptionB2: {
     text: [
-      "You invest in fast-deploying modular homes built with locally sourced, fire-resistant materials. This allows cities to expand capacity quickly without importing expensive goods. These homes provide safe shelter while creating jobs in the local building sector. Cities become less dependent on donor funding and more self-sufficient in housing delivery."
+      "You envision a transformative approach to urban living, where communities flourish thanks to the rapid deployment of state-of-the-art modular homes designed with care for both safety and sustainability. These homes are constructed using locally sourced, fire-resistant materials, ensuring that the suburban landscape is attractive and resilient to the elements.",
+
+      "Your model enables cities to expand their housing capacity swiftly and efficiently, bypassing the pitfalls of relying on expensive imports. Each modular unit is designed for easy assembly, allowing it to be erected in days rather than months, which is crucial in times of housing shortages.",
+
+      "Beyond providing shelter, these homes create a ripple effect of job opportunities in the local building sector. Skilled workers, from carpenters to electricians, find meaningful employment, stimulating the economy and strengthening community ties. As the neighborhoods fill with these thoughtfully designed homes, cities gain a newfound independence from external donor funding, positioning themselves to foster a self-sufficient and sustainable housing delivery system.",
+
+      "Your efforts in urban areas enhance residents' living conditions and cultivate a culture of resilience and self-reliance."
     ], 
   },
 
@@ -109,32 +126,34 @@ const story = {
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
-      { text: "Map Climate Migration Trends Using Satellite and Census Data", next: "OptionC1" },
+      { text: "Map Climate Migration Trends", next: "OptionC1" },
       { text: "Develop a National Registry for Climate Migrants", next: "OptionC2" },
       { text: "Create Inter-City Agreements on Housing Burden-Sharing", next: "OptionC3" },
-      { text: "Launch a Migrant Rights Education Campaign", next: "OptionC4" }
+      { text: "Establish Migrant Rights Campaign", next: "OptionC4" }
     ]
   },
 
-  OptionB1: {
+  OptionC1: {
     text: [
       "You commission detailed studies to map where people are moving, why, and in what numbers. This helps cities anticipate growth and rural regions anticipate loss. With accurate data, you avoid guesswork. Policies become targeted and proactive. You're no longer reacting to chaos—you're managing change."
     ], 
   },
 
-  OptionB2: {
+  OptionC2: {
     text: [
       "You build a secure national registry that helps track displaced individuals while protecting their identities. This registry aids in service delivery, housing allocation, and health outreach. Migrants gain visibility, which allows them to dismantle stigma. With documentation, they can access services and be counted in planning decisions."
     ], 
   },
 
-  OptionB3: {
+  OptionC3: {
     text: [
-      "You facilitate agreements among significant cities to share the responsibility of hosting migrants. These compacts outline budget contributions and development targets. Burden-sharing prevents one city from being overwhelmed. It encourages solidarity and helps smaller cities grow through planned expansion."
+      "You work to establish formal agreements among major metropolitan areas to collaboratively manage the influx of migrants. These comprehensive compacts delineate each city's specific financial contributions and clearly defined development targets that aim to enhance local infrastructure and services.",
+
+      "This burden-sharing strategy ensures that no single city becomes overburdened by the challenges associated with accommodating new residents. It fosters a sense of solidarity among cities while enabling smaller communities to develop sustainably through organized growth and expansion efforts. By working together, the cities can create a more equitable and supportive environment for all migrants, ultimately enriching each locale's cultural and economic fabric."
     ], 
   },
 
-  OptionB4: {
+  OptionC4: {
     text: [
       "You fund a national campaign to educate migrants and the public on migrant rights, housing access, and local resources. This reduces exploitation and misinformation. Migrants feel less alone and more empowered. City residents are less likely to treat newcomers as threats. Education becomes the glue of peaceful co-existence."
     ], 
@@ -150,10 +169,10 @@ const story = {
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
-      { text: "Institute Participatory Budgeting in Growing Urban Wards", next: "OptionD1" },
-      { text: "Allow Municipal Bonds for Affordable Housing Projects", next: "OptionD2" },
+      { text: "Create a Participatory Budget in Emerging Urban Sectors", next: "OptionD1" },
+      { text: "Fund Bond Initatives to Supprot Affordable Housing", next: "OptionD2" },
       { text: "Train Local Sanitation Officers to Monitor Disease Hotspots", next: "OptionD3" },
-      { text: "Establish Housing Mediation Boards for Migrant Disputes", next: "OptionD4" }
+      { text: "Erect Housing Mediation Boards", next: "OptionD4" }
     ]
   },
 
@@ -177,7 +196,9 @@ const story = {
 
   OptionD4: {
     text: [
-      "You establish local boards to mediate disputes between housing, rent, and informal agreements. These prevent eviction and promote peace in overcrowded areas. Mediation reduces conflict and creates more secure housing arrangements. Migrants trust local institutions when they see fairness upheld."
+      "You establish local boards to mediate disputes between housing, rent, and informal agreements. These prevent eviction and promote peace in overcrowded areas. Mediation reduces conflict and creates more secure housing arrangements. Migrants trust local institutions when they see fairness upheld.",
+
+      "Conflicts are addressed proactively through structured mediation processes, leading to more secure and reliable housing arrangements for residents. When migrants observe that these local institutions consistently uphold fairness and justice, their trust and confidence in the system grow, encouraging a more cohesive community. This approach mitigates tension and enhances the overall well-being of individuals living in overcrowded areas."
     ], 
   }
 }
@@ -223,6 +244,7 @@ const buttons = document.getElementById("narrative-button");
 
 // =================================
 
+
 function recordChoice(sceneText, choiceText) {
   history.push({ sceneText, choiceText });
   updateHistoryView();
@@ -234,9 +256,17 @@ function updateHistoryView() {
   const list = document.getElementById("history-list");
   list.innerHTML = "";
 
-  history.forEach(entry => {
+  history.forEach((entry, index) => {
     const li = document.createElement("li");
-    li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+
+    // If it's the last entry, include sceneText (description)
+    if (index === history.length - 1) {
+      li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+    } else {
+      // For earlier entries, show only the policy choice
+      li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}</div>`;
+    }
+
     list.appendChild(li);
   });
 }

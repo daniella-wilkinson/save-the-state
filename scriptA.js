@@ -313,9 +313,17 @@ function updateHistoryView() {
   const list = document.getElementById("history-list");
   list.innerHTML = "";
 
-  history.forEach(entry => {
+  history.forEach((entry, index) => {
     const li = document.createElement("li");
-    li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+
+    // If it's the last entry, include sceneText (description)
+    if (index === history.length - 1) {
+      li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+    } else {
+      // For earlier entries, show only the policy choice
+      li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}</div>`;
+    }
+
     list.appendChild(li);
   });
 }

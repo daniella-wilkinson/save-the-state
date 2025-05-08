@@ -8,10 +8,10 @@ const story = {
       "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
-      { text: "Launch a National Climate-Resilient Agriculture Initiative", next: "OptionA" },
+      { text: "Support Climate-Resilient Agriculture", next: "OptionA" },
       { text: "Develop Rural Livelihood Diversification Programs", next: "OptionB" },
-      { text: "Strengthen Urban Planning and Infrastructure for Climate Migrants", next: "OptionC" },
-      { text: " Establish a National Public Health Adaptation Program", next: "OptionD" }
+      { text: "Strengthen Urban Planning for Climate Migrants", next: "OptionC" },
+      { text: "Erect a National Public Health Adaptation Program", next: "OptionD" }
     ]
   },
 
@@ -20,11 +20,13 @@ const story = {
 
   OptionA: {
     text: [
-      "To address rural population exodus and the decline in agricultural productivity, we are initiating a comprehensive Climate-Resilient Agriculture Initiative. This program aims to equip farmers with the tools and knowledge to adapt to changing climatic conditions, ensuring sustainable food production and livelihoods. The initiative seeks to enhance resilience against droughts, floods, and heatwaves by integrating traditional farming practices with modern climate-smart techniques.",
+      "To address rural population exodus and the decline in agricultural productivity, you initiate a comprehensive Climate-Resilient Agriculture Initiative. Your program aims to equip farmers with the tools and knowledge to adapt to changing climatic conditions, ensuring sustainable food production and livelihoods. Your initiative seeks to enhance resilience against droughts, floods, and heatwaves by integrating traditional farming practices with modern climate-conscious techniques.",
 
-      "Central to this initiative is promoting climate-smart agriculture, which includes practices such as agroforestry, conservation agriculture, and drought-resistant crop varieties. We are establishing training programs to educate farmers on these methods, emphasizing the importance of soil health, water conservation, and diversified cropping systems. Additionally, the initiative supports the development of local seed banks and disseminates early warning systems for extreme weather events.",
+      "Central to your initiative is promoting climate-conscious agriculture, which includes practices such as agroforestry, conservation agriculture, and drought-resistant crop varieties. You establish training programs to educate farmers on these methods, emphasizing the importance of soil health, water conservation, and diversified cropping systems. Additionally, your initiative supports the development of local seed banks and disseminates early warning systems for extreme weather events.",
 
-      "This initiative aims to revitalize rural agriculture through climate adaptation and make farming a viable and attractive livelihood. This effort curbs rural-to-urban migration and ensures food security for rural and urban populations. Moreover, empowering farmers with adaptive strategies contributes to the broader goal of building resilient communities in the face of climate change."
+      "Your initiative revitalizes rural agriculture through climate adaptation and make farming a viable and attractive livelihood. This effort curbs rural-to-urban migration and ensures food security for rural and urban populations.",
+
+      "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
       { text: "Establish Climate-Smart Agriculture Training Centers", next: "OptionA1" },
@@ -36,39 +38,37 @@ const story = {
 
   OptionA1: {
     text: [
-      "You have established regional training centers that educate farmers about climate-smart agricultural practices. These centers act as hubs for knowledge exchange, demonstrations, and capacity building, specifically designed to address each area's unique climatic and ecological conditions. Collaborating with agricultural universities and research institutions ensures the training is based on the latest scientific research.",
+      "You establish regional training centers that educate farmers about climate-smart agricultural practices. These centers act as hubs for knowledge exchange, demonstrations, and capacity building, specifically designed to address each area's unique climatic and ecological conditions. Collaborating with agricultural universities and research institutions ensures the training is based on the latest scientific research.",
 
-      "The curriculum includes topics such as soil conservation, water-efficient irrigation techniques, integrated pest management, and the cultivation of climate-resilient crop varieties. Hands-on workshops and field demonstrations enable farmers to observe and practice these techniques, encouraging peer-to-peer learning. Special emphasis is placed on engaging women and youth, acknowledging their vital roles in agriculture and community development.",
+      "The curriculum includes topics such as soil conservation, water-efficient irrigation techniques, pest management, and the cultivation of climate-resilient crops. Special emphasis is placed on engaging women and youth, acknowledging their vital roles in agriculture and community development.",
 
-      "These centers significantly contribute to the transformation of agricultural practices by equipping farmers with knowledge and practical skills. As farmers adopt these methods, they experience improved yields, reduced vulnerability to climate shocks, and enhanced livelihoods, ultimately fostering stability and prosperity in rural areas."
+      "These centers significantly contribute to the transformation of agricultural practices by equipping farmers with knowledge and practical skills. As farmers adopt these methods, they experience improved yields, reduced vulnerability to climate change, and improved livelihoods."
     ], 
   },
 
   OptionA2: {
     text: [
-      "Recognizing the challenges of erratic rainfall and prolonged dry spells, you prioritize distributing drought-resistant seed varieties to farmers. In collaboration with agricultural research institutions, you identify and multiply high-yielding crop varieties resilient to water stress. You establish seed distribution networks to ensure timely and equitable access for farmers nationwide.",
+      "Recognizing the challenges of erratic rainfall and prolonged dry spells, you prioritize distributing drought-resistant seed varieties to farmers. In collaboration with agricultural research institutions, you identify and multiply resilient crop varieties resilient to drought. You establish seed distribution networks to ensure timely and equitable access for farmers region-wide. You cultivate governmental aid programs to guide farmers on ideal planting times, soil cultivation, and crop management practices tailored to these new crop varieties.",
 
-      "In addition to providing seeds, you strengthen extension services to guide farmers on optimal planting times, soil preparation, and crop management practices tailored to these new varieties. Demonstration plots showcase the performance of these crops under local conditions, building farmers' confidence in adopting them. Feedback mechanisms are instituted to gather farmers' experiences and inform ongoing research and development.",
-
-     "This effort enhances food security and reduces the risk of crop failure by facilitating the adoption of drought-resistant crops. Farmers gain a buffer against climatic uncertainties, leading to more stable incomes and reducing the incentives to migrate to urban centers in search of alternative livelihoods."  
+     "Your effort enhances food security and reduces the risk of crop failure by facilitating the adoption of drought-resistant crops. Farmers gain a buffer against climatic uncertainties, leading to more stable incomes and reducing the incentives to migrate to urban centers in search of alternative livelihoods."  
     ], 
   },
 
   OptionA3: {
     text: [
-      "You promote establishing community-based water collection systems to tackle water scarcity worsened by climate change. These systems, which include rainwater collection tanks, check dams, and contour bunds, are designed to capture and store rainwater for agricultural use during dry periods. Involving the community in the planning and construction of these systems fosters local ownership and sustainability.",
+      "You promote establishing community-based water collection systems to tackle water scarcity worsened by climate change. These systems, which include rainwater collection tanks, dams, and dikes, are designed to capture and store rainwater for agricultural use during dry periods. Involving the community in the planning and construction of these systems fosters local ownership and sustainability.",
 
-      "You conduct training programs to educate communities on maintaining and efficiently utilizing these water resources. Additionally, we develop guidelines to manage water distribution reasonably, preventing conflicts and ensuring that all community members benefit. Monitoring mechanisms are also established to assess these systems' effectiveness and identify areas for improvement.",
+      "You conduct training programs to educate communities on maintaining and efficiently utilizing these water resources. You develop guidelines to manage water distribution reasonably, preventing conflicts and ensuring that all community members benefit. Monitoring mechanisms are also established to assess these systems' effectiveness and identify areas for improvement.",
 
-      "By enhancing water availability for agriculture, these systems help mitigate the impacts of drought and reduce crop failures. This not only boosts food production but also strengthens the resilience of rural communities, making them less vulnerable to the factors that drive migration to urban areas."
+      "By enhancing water availability for agriculture, these systems help mitigate the impacts of drought and reduce crop failures. Your efforts boost food production and also strengthen the resilience of rural communities, making them less vulnerable to the climate threats that drive migration to urban centers."
     ], 
   },
 
   OptionA4: {
     text: [
-      "Access to financial resources is essential for farmers looking to invest in climate-resilient practices. We are launching microfinance programs specifically designed to meet the needs of smallholder farmers. These programs will offer low-interest loans and flexible repayment terms, enabling farmers to purchase essential inputs such as improved seeds, fertilizers, and irrigation equipment.",
+      "Access to financial resources is essential for farmers looking to invest in climate-resilient practices. You are launching microfinance programs specifically designed to meet the needs of smallholder farmers. These programs will offer low-interest loans and flexible repayment terms, enabling farmers to purchase essential inputs such as improved seeds, fertilizers, and irrigation equipment.",
 
-      "To ensure the success of these initiatives, we will provide financial literacy training to equip farmers with the skills needed to manage their loans effectively and make informed investment decisions. We will also establish partnerships with local banks and cooperatives to facilitate the loan disbursement and repayment processes. Additionally, we will introduce risk mitigation measures, such as crop insurance schemes, to protect farmers against potential losses.",
+      "To ensure the success of these initiatives,youwill provide financial literacy training to equip farmers with the skills needed to manage their loans effectively and make informed investment decisions. You will also establish partnerships with local banks and cooperatives to facilitate the loan disbursement and repayment processes. Additionally,youwill introduce risk mitigation measures, such as crop insurance schemes, to protect farmers against potential losses.",
 
       "These microfinance programs aim to stimulate agricultural productivity and foster economic growth in rural areas by financially empowering farmers. As farming becomes more profitable and sustainable, the appeal of urban migration decreases, contributing to more balanced regional development."
     ], 
@@ -79,11 +79,13 @@ const story = {
   
   OptionB: {
     text: [
-      "Recognizing that agriculture alone may not sustain rural economies in changing climatic conditions, we implement programs to diversify rural livelihoods. These initiatives strive to create alternative income-generating opportunities, reduce reliance on climate-sensitive agriculture, and enhance community resilience. By broadening the economic base, rural areas become more appealing to residents, helping to limit migration to urban centers.",
+      "Recognizing that agriculture alone may not sustain rural economies in changing climate conditions, you implement programs to diversify rural livelihoods. These initiatives strive to create alternative income-generating opportunities, reduce reliance on climate-sensitive agriculture, and enhance community resilience. By broadening the local economy, rural areas become more appealing to residents, helping to limit migration to urban centers.",
 
-      "The programs emphasize skill development, entrepreneurship, and the promotion of small and medium-sized enterprises in agro-processing, handicrafts, and renewable energy sectors. We establish training centers to equip individuals with essential skills, while providing access to microcredit and business development services to support the establishment and growth of SMEs. Special attention is given to empowering women and youth, as their potential is vital for driving economic transformation.",
+      "You develop a skill development and entrepreneurship initiative, to promote small and medium-sized businesses in textiles, commercial pottery, handicrafts, and renewable energy sectors. You establish training centers to equip individuals with essential skills. You must aim special attention to empowering women and young people, as their inclusion in the labor market is vital for driving economic transformation.",
 
-      "These programs foster diversified and resilient rural economies, offering alternative livelihoods and stimulating local markets and services. This comprehensive approach contributes to the overall well-being of rural communities, making them more self-reliant and less vulnerable to the negative impacts of climate change."
+      "These programs foster diversified and resilient rural economies, offering economically-viable livelihoods that stimulate local markets and services. Your comprehensive approach contributes to the overall well-being of rural communities, making them more self-reliant and less vulnerable to the negative impacts of climate change that erode economic stability. Notably, instability remain in the agricultural sector, the primary contributor to rural economies.",
+
+      "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
       { text: "Establish Climate-Smart Agriculture Training Centers", next: "OptionB1" },
@@ -97,7 +99,7 @@ const story = {
     text: [
       "You institute vocational training in rural areas to equip residents with skills that align with emerging economic opportunities. The courses include carpentry, tailoring, solar panel installation, and agro-processing techniques. These institutes are fitted with modern facilities and staffed by qualified instructors to ensure high-quality training.",
 
-      "Collaborations with industry partners and NGOs facilitate internships and job placements for graduates, effectively bridging the gap between training and employment. Additionally, entrepreneurship modules are included in the curriculum to foster self-employment and encourage business creation. Outreach programs are conducted to raise awareness and promote enrollment, especially among marginalized groups.",
+      "Collaborations with industry partners and NGOs (non-governmental organizations) facilitate internships and job placements for graduates, effectively bridging the gap between training and employment. Additionally, entrepreneurship modules are included in the curriculum to foster self-employment and encourage business creation. Outreach programs are conducted to raise awareness and promote enrollment, especially among marginalized groups.",
 
       "By enhancing the skill sets of rural populations, these institutes expand employment opportunities beyond traditional agriculture. This diversification of livelihoods contributes to economic resilience and reduces the need for migration to urban areas in search of work."
     ], 
@@ -115,17 +117,20 @@ const story = {
 
   OptionB3: {
     text: [
-      "Recognizing the potential of renewable energy in rural development, we support establishing community-based renewable energy enterprises. These enterprises focus on installing and maintaining solar panels, biogas digesters, and micro-hydropower systems, providing clean energy solutions for households and businesses. Additionally, training programs are conducted to build local expertise in renewable energy technologies. ",
+      "Recognizing the potential of renewable energy in rural development, you support establishing community-based renewable energy initiatives. These initiatives focus on installing and maintaining solar panels and micro-hydropower systems, providing clean energy solutions for households and businesses.",
 
-      "Financial incentives such as subsidies and low-interest loans are offered to encourage this growth further."
+      "Additionally, training programs are conducted to build local expertise in renewable energy technologies. Subsidies and low-interest loans offer financial incentives to encourage this growth further.",
+
+      "Local and state governments raise concerns over installation and maintenance costs to outfit rural communities with green energy infrastructure, often in communities without substantial modern infrastructure. The upfront costs associated with renewable energy and sustainable infrastructure are undeniable; however, you reassure naysayers arguing the importance of improving rural livelihoods to maintain the agricultural labor market and curb unsustainable rural-to-urban migration."
+
     ], 
   },
   
   OptionB4: {
     text: [
-      "Recognizing the potential of renewable energy in rural development, we support establishing community-based renewable energy enterprises. These enterprises focus on installing and maintaining solar panels, biogas digesters, and micro-hydropower systems, providing clean energy solutions for households and businesses. Additionally, training programs are conducted to build local expertise in renewable energy technologies. ",
+      "You propose a series of microloan programs to assist local farmers by subsidizing their maintenance costs. These loans will support farmers transitioning to drought-resilient crop varieties and adopting more sustainable technologies for harvesting and distributing their produce. Your microloans are highly flexible, providing farmers with the necessary funds to stay afloat during this transition to new methods and practices that enhance climate resilience, moving away from previous unsustainable practices increasingly jeopardized by climate change.",
 
-      "Financial incentives such as subsidies and low-interest loans are offered to encourage this growth further."
+      "Your microloan program aims to promote financial inclusion and help alleviate the economic struggles of farmers who require substantial government subsidies to remain viable."
     ], 
   },
 
@@ -138,7 +143,9 @@ const story = {
 
     "Key components include zoning reforms, investment in public utilities, expansion of affordable housing, and the integration of climate-resilient infrastructure such as flood-resistant roads and green drainage systems. The program involves multi-level coordination among municipal authorities, planners, and climate experts to develop city plans that are both adaptive and inclusive. Emphasis is placed on participatory planning processes to include migrant voices in decision-making.",
 
-    "By creating urban environments that can sustainably absorb population growth, the initiative reduces the adverse effects of migration and improves the quality of life for both existing residents and new arrivals. Urban areas become engines of development rather than sites of vulnerability, reinforcing national climate adaptation and development goals."
+    "By creating urban environments that can sustainably absorb population growth, the initiative reduces the adverse effects of migration and improves the quality of life for both existing residents and new arrivals. Urban areas become engines of development rather than sites of vulnerability, reinforcing national climate adaptation and development goals.",
+
+      "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
     ],
     options: [
       { text: "Expand Affordable and Climate-Resilient Housing Projects", next: "OptionC1" },
@@ -180,7 +187,7 @@ const story = {
 
   OptionC4: {
     text: [
-      "Recognizing the potential of renewable energy in rural development, we support establishing community-based renewable energy enterprises. These enterprises focus on installing and maintaining solar panels, biogas digesters, and micro-hydropower systems, providing clean energy solutions for households and businesses. Additionally, training programs are conducted to build local expertise in renewable energy technologies. ",
+      "Recognizing the potential of renewable energy in rural development,yousupport establishing community-based renewable energy enterprises. These enterprises focus on installing and maintaining solar panels, biogas digesters, and micro-hydropower systems, providing clean energy solutions for households and businesses. Additionally, training programs are conducted to build local expertise in renewable energy technologies. ",
 
       "Financial incentives such as subsidies and low-interest loans are offered to encourage this growth further."
     ], 
@@ -195,15 +202,55 @@ OptionD: {
 
     "The program focuses on strengthening health infrastructure, improving disease surveillance, expanding mobile health services, and training healthcare workers in climate-sensitive care. It also promotes public awareness campaigns that highlight the links between climate and health, prevention strategies, and emergency response preparedness.",
 
-    "Collaboration with global health and climate agencies will ensure access to technology and best practices. This initiative aims to enhance national well-being, increase productivity, and prevent future humanitarian crises by connecting climate resilience with health outcomes. It complements broader climate adaptation efforts while fulfilling international commitments."
+    "Collaboration with global health and climate agencies will ensure access to technology and best practices. This initiative aims to enhance national well-being, increase productivity, and prevent future humanitarian crises by connecting climate resilience with health outcomes. It complements broader climate adaptation efforts while fulfilling international commitments.",
+
+    "As a staff member, you must make policy decisions to address the issues in your community. The effectiveness of your choices may increase or decrease your community's resilience to environmental threats. How will you proceed?"
   ],
   options: [
-    { text: "Option 1", next: "OptionD1" },
-    { text: "Option 2", next: "OptionD2" },
-    { text: "Option 3", next: "OptionD3" },
-    { text: "Option 4", next: "OptionD4" }
+    { text: "Deploy Mobile Clinics to Underserved Areas", next: "OptionD1" },
+    { text: "Launch Early Warning Systems for Climate-Related Disease Outbreaks", next: "OptionD2" },
+    { text: "Train Climate-Health Community Workers", next: "OptionD3" },
+    { text: "Introduce Climate-Responsive Nutrition Programs", next: "OptionD4" }
   ]
-}
+},
+
+OptionD1: {
+  text: [
+    "You deploy solar-powered mobile clinics to rural and peri-urban areas that lack sufficient health services. These clinics offer vaccinations, maternal healthcare, treatment for climate-related diseases, and health education. They are equipped with telemedicine tools and can be quickly dispatched during climate disasters.",
+
+    "Staffed by trained nurses and community health workers, the mobile units also collect health data for national surveillance systems. They coordinate with local leaders to determine service schedules and assess community health needs.",
+
+    "By extending the reach of healthcare systems, these clinics improve health outcomes and prevent the spread of diseases exacerbated by climate shocks and migration. Additionally, they help build trust in public health systems and enhance preparedness for climate risks."
+  ], 
+},
+
+OptionD2: {
+  text: [
+    "You implement early warning systems that utilize meteorological data, mobile phone alerts, and community reporting to anticipate outbreaks of diseases such as malaria, dengue, and cholera. Public alerts and community response protocols are activated when risk thresholds are exceeded. Outbreak containment kits and medical teams are dispatched to high-risk areas before cases escalate.",
+
+    "This system significantly reduces morbidity and mortality associated with climate-sensitive diseases in densely populated urban centers. It also strengthens institutional coordination between health and climate agencies while building community resilience."
+  ], 
+},
+
+OptionD3: {
+  text: [
+    "You train a group of community health workers to understand the connections between climate and health, emphasizing prevention, adaptation, and mobilization within the community.",
+
+    "These workers educate households on practices for clean water, preventing heat-related illnesses, and maintaining nutrition during crop failures. They also monitor vulnerable individuals, such as the elderly and disabled, during heat waves or floods, connecting them to medical assistance when needed.",
+
+    "In rural areas, they act as first responders to public health crises. By investing in local human resources, you cultivate culturally competent and trusted health advocates who help reduce the burden on health systems and enhance community resilience to climate impacts."
+  ], 
+},
+
+OptionD4: {
+  text: [
+    "Recognizing the increasing malnutrition resulting from agricultural decline, we are implementing targeted nutrition programs that tackle food insecurity through local sourcing and climate-adapted meal planning. These initiatives include school feeding programs, food vouchers, and community gardens that use drought-tolerant crops.",
+
+    "Health centers will distribute climate-smart nutrition supplements to pregnant women, infants, and the elderly, continuously monitoring growth and dietary health. Public campaigns will promote awareness of nutrient-rich Indigenous foods and food preservation techniques.",
+
+    "Addressing climate-induced malnutrition supports long-term health and cognitive development, particularly for youth. Additionally, it creates a connection between public health and climate-resilient agricultural policy."
+  ], 
+},
 
 }
 
@@ -259,9 +306,17 @@ function updateHistoryView() {
   const list = document.getElementById("history-list");
   list.innerHTML = "";
 
-  history.forEach(entry => {
+  history.forEach((entry, index) => {
     const li = document.createElement("li");
-    li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+
+    // If it's the last entry, include sceneText (description)
+    if (index === history.length - 1) {
+      li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}<br><strong>Description :</strong> ${entry.sceneText}</div>`;
+    } else {
+      // For earlier entries, show only the policy choice
+      li.innerHTML = `<div style="padding: 1em;"><strong>Policy :</strong> ${entry.choiceText}</div>`;
+    }
+
     list.appendChild(li);
   });
 }
